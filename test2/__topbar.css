@@ -1,0 +1,99 @@
+html,
+body {
+    margin: 0;
+}
+
+.topbar {
+    background-color: #dddddd;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: left;
+    width: 75%;
+}
+
+.top-bar>div {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.top-bar a {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #606060;
+}
+
+.top-bar img {
+    width: 1rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.top-bar span {
+    font-size: 1rem;
+}
+
+.link {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.link:hover {
+    background-color: white;
+    box-shadow: 0px 0px 15px 1px rgb(102, 102, 102);
+}
+
+.hidden-div {
+    position: absolute;
+    top: 100%;
+    white-space: normal;
+    display: none;
+    z-index: 9999;
+    background-color: white;
+}
+
+.hidden-div img {
+    width: 10rem;
+}
+
+.link:hover .hidden-div {
+    display: block;
+    
+    /* Show the hidden div when hovering over the link */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+    .top-bar {
+        justify-content: center;
+    }
+
+    .top-bar span {
+        display: none;
+        /* Hide the span element on mobile devices */
+    }
+
+    .top-bar>div {
+        padding: 10px 30px;
+    }
+
+    .link:hover .hidden-div {
+        display: none;
+    }
+
+}
+
+/* Media query for tablet devices */
+@media (max-width: 768px) {
+    .top-bar {
+        width: 100%;
+        justify-content: center;
+    }
+}
