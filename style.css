@@ -5,10 +5,6 @@ body {
   background-color: #3b3b3b;
 }
 
-
-
-
-
 header {
   max-width: 800px;
   margin: 40px auto;
@@ -220,45 +216,36 @@ footer {
 @media only screen and (max-width: 767px) {
   header {
     border-radius: 0px;
-    margin: 0px auto 40px;
-  }
+    margin: 0px auto 40px;}
   header h1{
     font-size: 1rem;
-    margin-bottom: 8px;
-  }
+    margin-bottom: 8px;}
   header p{
     margin-top: 0;
-    font-size: 0.9rem;
-  }
+    font-size: 0.9rem;}
   header img{
-    border: 2px solid white;
-  }
+    border: 3px solid white;}
+
+
   section{
-    padding: 20px;
-  }
+    padding: 20px;}
   section p {
-    font-size: 0.9rem;
-  }
+    font-size: 0.9rem;}
   section h3 {
-    font-size: 1rem;
-  }
+    font-size: 1rem;}
   .certificates img {
-    height: 250px;
-  }
+    height: 250px;}
 
   #skills td:first-child {
     width: 50%;
     padding: 10px;
-    border: 1px solid #ddd;
-  }
+    border: 1px solid #ddd;}
 
   td{
-    font-size: 0.9rem;
-  }
+    font-size: 0.9rem;}
 
   footer {
-    border-radius: 0px;
-  }
+    border-radius: 0px;}
   
 }
 
