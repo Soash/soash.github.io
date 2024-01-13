@@ -32,7 +32,7 @@ header p {
   margin-left: 20px;
 }
 header p {
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 
@@ -58,9 +58,7 @@ section h3 {
 }
 section p {
   margin: 0px 0px;
-}
-section div {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   line-height: 1.6;
 }
 #about div {
@@ -226,17 +224,24 @@ footer {
     margin: 0px auto 40px;
   }
   header h1{
-    font-size: 1.5em;
+    font-size: 1rem;
     margin-bottom: 8px;
   }
   header p{
     margin-top: 0;
+    font-size: 3vw;
   }
   section{
-    font-size: 0.75em;
+    padding: 20px;
+  }
+  section p {
+    font-size: 0.9rem;
+  }
+  section h3 {
+    font-size: 1rem;
   }
   .certificates img {
-    height: 260px;
+    height: 250px;
   }
 
   #skills td:first-child {
@@ -244,6 +249,11 @@ footer {
     padding: 10px;
     border: 1px solid #ddd;
   }
+
+  td{
+    font-size: 0.9rem;
+  }
+
   footer {
     border-radius: 0px;
   }
