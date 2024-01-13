@@ -2,8 +2,7 @@ body {
   font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #3b3b3b;
-}
+  background-color: #3b3b3b;}
 
 header {
   max-width: 800px;
@@ -15,21 +14,16 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-}
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
 header img {
   max-width: 25%;
   height: auto;
   border: 5px solid white;
-  border-radius: 50%;
-}
-header h1,
+  border-radius: 50%;}
+header div{
+  margin-left: 20px;}
 header p {
-  margin-left: 20px;
-}
-header p {
-  font-size: 1.2rem;
-}
+  font-size: 1.2rem;}
 
 
 
