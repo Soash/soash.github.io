@@ -228,8 +228,9 @@ footer {
   }
   header p{
     margin-top: 0;
-    font-size: 3vw;
+    font-size: 0.9rem;
   }
+
   section{
     padding: 20px;
   }
