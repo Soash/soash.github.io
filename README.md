@@ -1,6 +1,6 @@
-# soash.github.io
+# [soash.github.io](https://soash.github.io/)
 
-Welcome to my personal website!  
+Welcome to my personal website!
 This site showcases my projects, blog posts, and more.
 
 ## 📫 Contact
