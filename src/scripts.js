@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const currentPage = window.location.pathname.split("/").pop(); // e.g., index.html
 
   // Load Sidebar (Desktop)
-  fetch('_sidebar.html')
+  fetch('sidebar.html')
     .then(response => response.text())
     .then(data => {
       document.getElementById('sidebar').innerHTML = data;
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
   // Load Mobile Sidebar (Offcanvas)
-  fetch('_mobileSidebar.html')
+  fetch('mobileSidebar.html')
     .then(response => response.text())
     .then(data => {
       document.getElementById('mobile-sidebar').innerHTML = data;
