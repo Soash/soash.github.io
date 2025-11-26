@@ -1,0 +1,106 @@
+[
+  {
+    "title": "Club Foot Case Study",
+    "description": "A case study on clubfoot, a congenital deformity.",
+    "badge": "Case Study",
+    "badgeColor": "dark",
+    "link": "https://soash-sadat.blogspot.com/2023/01/case-study-on-clubfoot.html",
+    "buttonText": "Read Article"
+  },
+  {
+    "title": "Hidden Antitoxin in Salmonella",
+    "description": "In Silico annotation of Hypothetical Protein ACLVWE_24230.",
+    "badge": "Research Project",
+    "badgeColor": "dark",
+    "link": "https://soash-sadat.blogspot.com/2025/11/in-silico-annotation-reveals.html",
+    "buttonText": "Read Article"
+  },
+  {
+    "title": "Phagebiome Lab",
+    "description": "Phagebiome Lab is a research group based at SUST.",
+    "badge": "Web App",
+    "badgeColor": "dark",
+    "link": "https://phagebiomelab.com/",
+    "buttonText": "Visit Project"
+  },
+  {
+    "title": "Dawn of Bioinformatics",
+    "description": "1st Bioinformatics Limited Company in Bangladesh.",
+    "badge": "Web App",
+    "badgeColor": "dark",
+    "link": "https://dawnofbioinformatics.com/",
+    "buttonText": "Visit Project"
+  },
+  {
+    "title": "IBAI",
+    "description": "Institute of Bioinformatics and AI.",
+    "badge": "Web App",
+    "badgeColor": "dark",
+    "link": "https://ibaidob.com/",
+    "buttonText": "Visit Project"
+  },
+  {
+    "title": "NYBB GO",
+    "description": "Biotech Hackathon Project focused on innovative solutions.",
+    "badge": "Research",
+    "badgeColor": "dark",
+    "link": "https://github.com/Soash/NYBB-GO-2.0",
+    "buttonText": "Visit Project"
+  },
+  {
+    "title": "Vidnick",
+    "description": "Smart Student–Teacher Matching Platform.",
+    "badge": "Web App",
+    "badgeColor": "secondary",
+    "link": "https://github.com/Soash/Vidnick",
+    "buttonText": "Visit Project"
+  },
+  {
+    "title": "LinkTrim",
+    "description": "A URL Shortener Service for easy link management.",
+    "badge": "Web App",
+    "badgeColor": "secondary",
+    "link": "https://github.com/Soash/LinkTrim",
+    "buttonText": "Visit Project"
+  },
+  {
+    "title": "AdShare",
+    "description": "A Pay-to-Click Ad Network.",
+    "badge": "Web App",
+    "badgeColor": "secondary",
+    "link": "https://github.com/Soash/AdShare",
+    "buttonText": "Visit Project"
+  },
+  {
+    "title": "DropTrail",
+    "description": "Dropshipping E-commerce Platform.",
+    "badge": "Web App",
+    "badgeColor": "secondary",
+    "link": "https://github.com/Soash/DropTrail",
+    "buttonText": "Visit Project"
+  },
+  {
+    "title": "VisaEase",
+    "description": "Visa Management System.",
+    "badge": "Web App",
+    "badgeColor": "secondary",
+    "link": "https://github.com/Soash/VisaEase",
+    "buttonText": "Visit Project"
+  },
+  {
+    "title": "Ashara",
+    "description": "NGO Management System.",
+    "badge": "Web App",
+    "badgeColor": "secondary",
+    "link": "https://github.com/Soash/Ashara",
+    "buttonText": "Visit Project"
+  },
+  {
+    "title": "EduTrack",
+    "description": "School Management System.",
+    "badge": "Web App",
+    "badgeColor": "secondary",
+    "link": "https://github.com/Soash/EduTrack",
+    "buttonText": "Visit Project"
+  }
+]

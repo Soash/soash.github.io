@@ -1,0 +1,146 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fdfdfd;
+    scroll-behavior: smooth;
+    padding-top: 0; /* Mobile padding handled in media query */
+    margin: 0;
+}
+
+/* Sidebar */
+.sidebar {
+    background: #1c1f23;
+    color: #fff;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+/* Main content */
+.main-content {
+    min-height: 100vh; /* ensure it always fills the viewport */
+    background-color: #fdfdfd;
+}
+
+/* Sidebar links */
+.sidebar a {
+    color: #dcdcdc;
+    text-decoration: none;
+    display: block;
+    padding: 8px 0;
+    font-size: 15px;
+    border-left: 4px solid transparent;
+    transition: all 0.3s;
+}
+
+.sidebar a:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-left: 4px solid #0d6efd;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+/* Mobile navbar spacing */
+@media (max-width: 767px) {
+    .sidebar {
+        position: relative;
+        height: auto;
+    }
+}
+
+/* ======================= */
+/* Mobile Navbar           */
+/* ======================= */
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #0d6efd;
+}
+
+/* ======================= */
+/* Section Titles          */
+/* ======================= */
+.section-title {
+    border-left: 4px solid #0d6efd;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+/* ======================= */
+/* Timeline / Work Experience / ECA / Courses */
+/* ======================= */
+.timeline h3,
+.eca-section h3,
+.courses-section h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.role-group,
+.eca-section .card,
+.courses-section .card {
+    margin-bottom: 30px;
+}
+
+.meta {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.card h3 {
+    font-size: 1.15rem;
+}
+
+hr {
+    margin: 10px 0;
+    border-top: 1px solid #dee2e6;
+}
+
+/* ======================= */
+/* Badges                  */
+/* ======================= */
+.badge {
+    font-size: 0.85rem;
+}
+
+/* Bootstrap colors already exist (primary, success, info, warning, danger) */
+
+/* Custom additional badge colors */
+.badge-purple { background-color: #6f42c1; }
+.badge-pink { background-color: #d63384; }
+.badge-orange { background-color: #fd7e14; color: #000; }
+.badge-teal { background-color: #20c997; }
+.badge-lightblue { background-color: #0dcaf0; color: #000; }
+
+.card-title {
+  font-weight: 600;
+}
+
+.badge {
+  font-size: 0.75rem;
+}
+
+.list-group-item a {
+  text-decoration: none;
+  color: #000;
+}
+
+.list-group-item a:hover {
+  text-decoration: underline;
+}
+

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Md Abu Sadat Soash — Conference</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="src/styles.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row">
+
+    <!-- Sidebar (Desktop) -->
+    <div id="sidebar" class="col-md-3 sidebar p-4 d-none d-md-block"></div>
+
+    <!-- Mobile Navbar -->
+    <nav class="navbar navbar-dark bg-dark d-md-none sticky-top">
+      <div class="container-fluid">
+        <!-- Website Title (Left) -->
+        <span class="navbar-brand mb-0 h4">Md ABu Sadat Soash</span>
+
+        <!-- Toggle Button (Right) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#mobileMenu" aria-controls="mobileMenu"
+                aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Offcanvas Menu (Narrow width) -->
+    <div class="offcanvas offcanvas-start text-bg-dark d-md-none" tabindex="-1" id="mobileMenu" style="width: 250px;">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Menu</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+
+      <div class="offcanvas-body">
+        <ul class="navbar-nav" id="mobile-sidebar">
+        </ul>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="col-md-9 p-2 p-md-5">
+      <h4 class="section-title">Conference Participation</h4>
+
+      <section class="conference-section">
+
+        <!-- Conference 1 -->
+        <div class="card mb-3 shadow-sm">
+          <div class="card-body">
+            <h3>International Conference on Life Sciences 2025 <span class="badge bg-primary">Participant & Volunteer</span></h3>
+            <p><strong>School of Life Sciences, Shahjalal University of Science & Technology (SUST), Sylhet</strong></p>
+            <p>Participated in the conference and actively volunteered in organizing the event, contributing behind the scenes as part of the coordination team.</p>
+            <p><em>Research abstract accepted:</em> “Deep Learning-Based Computational Pathology for Cervical Cancer Prediction from Cervical Cell Images.”</p>
+            <!-- <a href="certificate1.pdf" target="_blank" class="btn btn-primary btn-sm mt-2">View Certificate</a> -->
+            <button type="button" class="btn btn-danger btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#certificateModal" data-img="ICLS.png" data-title="International Conference on Life Sciences 2025">
+              View Attachment
+            </button>
+          </div>
+        </div>
+
+        <!-- Conference 2 -->
+        <div class="card mb-3 shadow-sm">
+          <div class="card-body">
+            <h3>1st ISCB RSG Bangladesh CompBio Symposium 2023 <span class="badge bg-success">Participant</span></h3>
+            <p><strong>International Society for Computational Biology (ISCB) – Regional Student Group (RSG) Bangladesh, BRiCM, Dhaka</strong></p>
+            <p>Attended the symposium and engaged in discussions on current trends in computational biology.</p>
+            <p>Participated in pre-symposium tutorials on Basic Bioinformatics and Abstract Writing, enhancing skills in computational tools and scientific communication.</p>
+            <button type="button" class="btn btn-danger btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#certificateModal" data-img="CompBio.png" data-title="CompBio Symposium 2023">
+              View Attachment
+            </button>
+          </div>
+        </div>
+
+        <!-- Conference 3 -->
+        <div class="card mb-3 shadow-sm">
+          <div class="card-body">
+            <h3>Darwin Regional Conference 2023 <span class="badge bg-info text-dark">Participant</span></h3>
+            <p><strong>STEM Community, Independent University, Bangladesh (IUB)</strong></p>
+            <p>Attended the conference and engaged with sessions covering advances in life sciences and STEM research.</p>
+            <p>Participated in workshops on “Introduction to R & Python” and “Basic Introduction to Genomics & Bioinformatics.”</p>
+            <button type="button" class="btn btn-danger btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#certificateModal" data-img="darwin.png" data-title="Darwin Regional Conference 2023">
+              View Attachment
+            </button>
+          </div>
+        </div>
+
+        <!-- Reusable Modal -->
+        <div class="modal fade" id="certificateModal" tabindex="-1" aria-labelledby="certificateModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="certificateModalLabel">Certificate</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body text-center">
+                <img id="certificateModalImg" src="" alt="Certificate" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="src/scripts.js"></script>
+<script>
+  const certificateModal = document.getElementById('certificateModal');
+  certificateModal.addEventListener('show.bs.modal', event => {
+    const button = event.relatedTarget; // Button that triggered the modal
+    const imgSrc = button.getAttribute('data-img');
+    const title = button.getAttribute('data-title');
+
+    // Update modal content
+    document.getElementById('certificateModalImg').src = `conference/${imgSrc}`;
+    document.getElementById('certificateModalLabel').textContent = title;
+  });
+</script>
+</body>
+</html>
+
+

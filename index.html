@@ -1,377 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Md Abu Sadat Soash</title>
 
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="src/styles.css" rel="stylesheet">
+</head>
 <body>
 
-    <header>
-        <img src="media\soash.jpg" alt="soash">
-        <div>
-            <h1>Md Abu Sadat Soash</h1>
-            <p>Researcher, Web Developer</p>
-        </div>
-    </header>
+<div class="container-fluid">
+  <div class="row">
 
-    <section id="about">
-        <h2>About Me</h2>
-        <div>
-            <p>Enthusiastic and ambitious Biotechnology undergraduate with a passion for cutting-edge scientific
-                advancements and programming. Seeking opportunities to leverage my strong academic foundation and
-                programming skills to contribute to groundbreaking research and innovation in the biotechnology
-                industry.
+    <!-- Sidebar (Desktop) -->
+    <div id="sidebar" class="col-md-3 sidebar p-4 d-none d-md-block"></div>
+
+    <!-- Mobile Navbar -->
+    <nav class="navbar navbar-dark bg-dark d-md-none sticky-top">
+      <div class="container-fluid">
+        <!-- Website Title (Left) -->
+        <span class="navbar-brand mb-0 h4">Md ABu Sadat Soash</span>
+
+        <!-- Toggle Button (Right) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#mobileMenu" aria-controls="mobileMenu"
+                aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Offcanvas Menu (Narrow width) -->
+    <div class="offcanvas offcanvas-start text-bg-dark d-md-none" tabindex="-1" id="mobileMenu" style="width: 250px;">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Menu</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+
+      <div class="offcanvas-body">
+        <ul class="navbar-nav" id="mobile-sidebar">
+        </ul>
+      </div>
+    </div>
+
+
+    <!-- Main Content -->
+    <div class="col-md-9 main-content p-2 p-md-5">
+
+      <!-- About Me -->
+      <h4 class="section-title" id="personal">About Me</h4>
+      <div class="card mb-3 shadow-sm">
+        <div class="card-body d-flex flex-column flex-md-row align-items-center">
+          
+          <!-- Profile Photo -->
+          <img src="src/profile.jpg"
+              alt="Profile Photo"
+              class="rounded-circle shadow-lg me-md-4 mb-3 mb-md-0"
+              style="width: 160px; height: 160px; object-fit: cover;">
+
+          <!-- About Text -->
+          <p class="mb-0">
+            Hi, I'm Md Abu Sadat Soash. Enthusiastic and ambitious Biotechnology undergraduate with a passion for cutting-edge scientific advancements and programming.  
+            Seeking opportunities to leverage my strong academic foundation and programming skills to contribute to groundbreaking research and innovation in the biotechnology industry.
+          </p>
+
+        </div>
+      </div>
+
+
+      <!-- Personal Details -->
+      <h4 class="section-title">Personal Details</h4>
+      <div class="card mb-3 shadow-sm">
+        <div class="card-body">
+          <p><strong>Religion:</strong> Muslim</p>
+          <p><strong>Gender:</strong> Male</p>
+          <p><strong>Nationality:</strong> Bangladeshi</p>
+          <p><strong>Blood Group:</strong> O+</p>
+          <p><strong>Address:</strong> Tangail-1900, Bangladesh</p>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <h4 class="section-title">Skills</h4>
+      <div class="card mb-3 shadow-sm">
+        <div class="card-body">
+          <p><strong>Programming:</strong> Python, C, R, HTML, CSS, JS, PHP, SQL</p>
+          <p><strong>Frameworks:</strong> Bootstrap, jQuery, Django, WordPress</p>
+          <p><strong>Computer:</strong> Word, Excel, PowerPoint, Canva, Capcut</p>
+          <p><strong>Lab Skills:</strong> Bioinformatics, Microbial Culture, Herbarium</p>
+          <p><strong>Soft Skills:</strong> Creativity, Adaptability, Critical Thinking, Teamwork</p>
+          <p><strong>Languages:</strong> Bengali (native), English (fluent)</p>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <h4 class="section-title">Education</h4>
+      <div class="card mb-3 shadow-sm">
+        <div class="card-body">
+            <p><strong>Bachelor of Science (Hons) in Genetic Engineering and Biotechnology</strong></p>
+            <p>Shahjalal University of Science and Technology, Sylhet, Bangladesh<br>
+                <strong>Duration:</strong> 2022 – Present
+            </p>
+            <hr class="opacity-75">
+            <p><strong>Higher Secondary School Certificate (HSC) in Science</strong></p>
+            <p>Major General Mahmudul Hasan Adarsha College, Tangail, Bangladesh<br>
+                <strong>Duration:</strong> 2018 – 2020
+            </p>
+            <hr class="opacity-75">
+            <p><strong>Secondary School Certificate (SSC) in Science</strong></p>
+            <p>Jashihati Hight School, Tangail, Bangladesh<br>
+                <strong>Duration:</strong> 2016 – 2018
             </p>
         </div>
-    </section>
+      </div>
 
-    <section id="personal-details">
-        <h2>Personal Details</h2>
-        <div>
-            <p>Religion: Muslim</p>
-            <p>Gender: Male</p>
-            <p>Nationality: Bangladeshi</p>
-            <p>Blood Group: O+</p>
-            <p>Address: Tangail-1900, Bangladesh</p>
+      <!-- Hobbies -->
+      <h4 class="section-title">Hobbies</h4>
+      <div class="card mb-3 shadow-sm">
+        <div class="card-body">
+          <span class="badge bg-dark me-2 mb-2">Programming</span>
+          <span class="badge bg-dark me-2 mb-2">Travelling</span>
+          <span class="badge bg-dark me-2 mb-2">Photography</span>
+          <span class="badge bg-dark me-2 mb-2">Music</span>
+          <span class="badge bg-dark me-2 mb-2">Gaming</span>
         </div>
-    </section>
+      </div>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <table>
-            <tr>
-                <td><strong>Programming Skills:</strong></td>
-                <td>Python, C, R, HTML, CSS, JS, PHP, SQL</td>
-            </tr>
-            <tr>
-                <td><strong>Framework Skills:</strong></td>
-                <td>Bootstrap, jQuery, Django, WordPress</td>
-            </tr>
-            <tr>
-                <td><strong>Computer Skills:</strong></td>
-                <td>Word, Excel, PowerPoint, Canva, Capcut</td>
-            </tr>
-            <tr>
-                <td><strong>Lab Skills:</strong></td>
-                <td>Bioinformatics, MO Culture, Herberium</td>
-            </tr>
-            <tr>
-                <td><strong>Soft Skills:</strong></td>
-                <td>Creativity, Adaptability, Critical thinking, Teamwork</td>
-            </tr>
-            <tr>
-                <td><strong>Language Skills:</strong></td>
-                <td>Bengali (native), English (fluent)</td>
-            </tr>
-        </table>
-    </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <div>
-            <h3>Bachalor of Science (Hons) in Genetic Engineering and Biotechnology</h3>
-            <p>
-                CGPA: 3.53 out of 4.00<br>
-                Shahjalal University of Science and Technology, Sylhet-3114, Bangladesh<br>
-                Duration: 2022 - Present
-            </p>
-        </div>
+    </div>
 
-        <div>
-            <h3>Higher Secondary School Certificate (HSC) in Science</h3>
-            <p>
-                GPA: 5.00 out of 5.00<br>
-                Major General Mahmudul Hasan Adarsha College, Tangail-1900, Bangladesh<br>
-                Duration: 2018 - 2020
-            </p>
-        </div>
-    </section>
+    <nav class="navbar navbar-dark bg-dark d-md-none">
+      <div class="container-fluid">
+        <!-- Website Title (Left) -->
+        <span class="navbar-brand mb-0 h4">See More</span>
 
-    <section id="experience">
-        <h2>Work Experience</h2>
+        <!-- Toggle Button (Right) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#mobileMenu" aria-controls="mobileMenu"
+                aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
 
-        <div>
-            <h3>Web Developer, Virus Inc. (2021 - Present)</h3>
-            <p>
-                As a Web Developer at Virus Inc., I am involved in creating innovative and efficient web solutions
-                to meet the company's needs.
-            </p>
-        </div>
-
-        <div>
-            <h3>Executive Member, NYBB SUST Student Chapter (2024 - Present)</h3>
-            <p>
-                As an Executive Member of NYBB, I spearhead initiatives to foster collaboration among biotech enthusiasts. 
-                I organize events, workshops, and projects, facilitating networking opportunities and contributing to the 
-                advancement of biotechnology in Bangladesh. My role involves leadership, organization, and active participation 
-                in shaping the future of the field.
-            </p>
-        </div>
-
-        <div>
-            <h3>Best Campus Coordinator, Dawn of Bioinformatics (2023 - 2024)</h3>
-            <p>
-                Currently serving as the Best Campus Coordinator for Dawn of Bioinformatics, I contribute to the
-                coordination and success of bioinformatics-related events on campus.
-            </p>
-        </div>
-
-        <div>
-            <h3>Assistant Web Secretary, KIN (2023 - 2024)</h3>
-            <p>
-                In my role as the Assistant Web Secretary at KIN, I assist in managing and maintaining the
-                organization's website and online presence.
-            </p>
-        </div>
-
-        <div>
-            <h3>Assistant Tech Coordinator, HULT Prize at SUST (2022 - 2023)</h3>
-            <p>
-                As the Assistant Tech Coordinator for HULT Prize at SUST, I played a key role in organizing and
-                coordinating technology-related aspects of the events held during the specified period.
-            </p>
-        </div>
-
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        
-        <div class="project-grid">
-            
-            <div class="project-card">
-                <h3>Club Foot Case Study</h3>
-                <p>A case study on clubfoot, a congenital deformity</p>
-                <a href="https://soash-sadat.blogspot.com/2023/01/case-study-on-clubfoot.html" target="_blank">Read the article</a>
-            </div>
-
-            <div class="project-card">
-                <h3>A Hidden Antitoxin Inside Salmonella’s Plasmid </h3>
-                <p>In Silico Annotation of Hypothetical Protein ACLVWE_24230</p>
-                <a href="https://soash-sadat.blogspot.com/2025/11/in-silico-annotation-reveals.html" target="_blank">Read the article</a>
-            </div>
-
-            <div class="project-card">
-                <h3>Phagebiome Lab</h3>
-                <p>Phagebiome Lab is a research group based at SUST</p>
-                <a href="https://phagebiomelab.com/" target="_blank">Visit Project</a>
-            </div>
-
-            <div class="project-card">
-                <h3>Dawn of Bioinformatics</h3>
-                <p>1st Bioinformatics Limited Company in Bangladesh</p>
-                <a href="https://phagebiomelab.com/" target="_blank">Visit Project</a>
-            </div>
-
-            <div class="project-card">
-                <h3>IBAI</h3>
-                <p>Institute of Bioinformatics and AI</p>
-                <a href="https://ibaidob.com/" target="_blank">Visit Project</a>
-            </div>
-
-            <div class="project-card">
-                <h3>NYBB GO</h3>
-                <p>Biotech Hackathon Project</p>
-                <a href="https://github.com/Soash/NYBB-GO-2.0" target="_blank">Visit Project</a>
-            </div>
-
-            <div class="project-card">
-                <h3>Vidnick</h3>
-                <p>Smart Student–Teacher Matching Platform</p>
-                <a href="https://github.com/Soash/Vidnick" target="_blank">Visit Project</a>
-            </div>
-
-            <div class="project-card">
-                <h3>LinkTrim</h3>
-                <p>A URL Shortener Service</p>
-                <a href="https://github.com/Soash/LinkTrim" target="_blank">Visit Project</a>
-            </div>
-
-            <div class="project-card">
-                <h3>AdShare</h3>
-                <p>A Pay-to-Click Ad Network</p>
-                <a href="https://github.com/Soash/AdShare" target="_blank">Visit Project</a>
-            </div>
-
-            <div class="project-card">
-                <h3>DropTrail</h3>
-                <p>Dropshipping E-commerce Platform</p>
-                <a href="https://github.com/Soash/DropTrail" target="_blank">Visit Project</a>
-            </div>
-
-            <div class="project-card">
-                <h3>VisaEase</h3>
-                <p>Visa Management System</p>
-                <a href="https://github.com/Soash/VisaEase" target="_blank">Visit Project</a>
-            </div>
-
-            <div class="project-card">
-                <h3>Ashara</h3>
-                <p>NGO Management System</p>
-                <a href="https://github.com/Soash/Ashara" target="_blank">Visit Project</a>
-            </div>
-
-            <div class="project-card">
-                <h3>EduTrack</h3>
-                <p>School Management System</p>
-                <a href="https://github.com/Soash/EduTrack" target="_blank">Visit Project</a>
-            </div>
-
-            <div class="project-card">
-                <h3>Profiles</h3>
-                <ul class="profile-links">
-                <li><a href="https://soash.github.io" target="_blank">soash.github.io</a></li>
-                <li><a href="https://github.com/soash" target="_blank">GitHub</a></li>
-                <li><a href="https://soash-sadat.blogspot.com" target="_blank">Blogspot</a></li>
-                <li><a href="https://rosalind.info/users/soash" target="_blank">Rosalind</a></li>
-                <li><a href="https://codeforces.com/profile/Soash" target="_blank">Codeforces</a></li>
-                <li><a href="https://toph.co/u/soash.sadat" target="_blank">Toph</a></li>
-            </ul>
-            </div>
-        </div>
-    </section>
-
-    <section id="certificates">
-        <h2>Certificates</h2>
-        <div class="certificates">
-            <div class="slideshow-container">
-
-                <div class="mySlides fade">
-                    <div class="numbertext">1 / 11</div>
-                    <img src="media\certificates\Python.png" alt="python certificate of soash">
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">2 / 11</div>
-                    <img src="media\certificates\C_certificate.jpg" alt="c certificate of soash">
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">3 / 11</div>
-                    <img src="media\certificates\HTML_certificate.jpg" alt="html certificate of soash">
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">4 / 11</div>
-                    <img src="media\certificates\BioPc_Certificate.png" alt="biopc certificate of soash">
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">5 / 11</div>
-                    <img src="media\certificates\GEB_Society_2022.png" alt="geb society 2022 certificate of soash">
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">6 / 11</div>
-                    <img src="media\certificates\Hult_Prize_at_SUST.png" alt="hult prize certificate of soash">
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">7 / 11</div>
-                    <img src="media\certificates\1st_CompBio_Symposium.png"
-                        alt="1st compbio symposium certificate of soash">
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">8 / 11</div>
-                    <img src="media\certificates\IVLP.png" alt="ivlp certificate of soash">
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">9 / 11</div>
-                    <img src="media\certificates\Workskop_on_Rubiks_Cube_SSA.png"
-                        alt="rubiks cube certificate of soash">
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">10 / 11</div>
-                    <img src="media\certificates\DoB.jpg" alt="DoB certificate of soash">
-                </div>
-
-                <a class="prev" onclick="plusSlides(-1)">❮</a>
-                <a class="next" onclick="plusSlides(1)">❯</a>
-            </div>
-
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-                <span class="dot" onclick="currentSlide(4)"></span>
-                <span class="dot" onclick="currentSlide(5)"></span>
-                <span class="dot" onclick="currentSlide(6)"></span>
-                <span class="dot" onclick="currentSlide(7)"></span>
-                <span class="dot" onclick="currentSlide(8)"></span>
-                <span class="dot" onclick="currentSlide(9)"></span>
-                <span class="dot" onclick="currentSlide(10)"></span>
-            </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section id="hobbies">
-        <h2>Hobbies</h2>
-        <div>
-            <span>Programming</span>
-            <span>Travelling</span>
-            <span>Photography</span>
-            <span>Music</span>
-            <span>Gaming</span>
-        </div>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <div class="contact-links">
-            <a href="mailto:soash.sadat@gmail.com"><i class="fas fa-envelope"></i> soash.sadat@gmail.com</a>
-            <a href="https://www.linkedin.com/in/soash-sadat" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
-            <a href="https://www.facebook.com/soash.sadat" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
-            <a href="https://t.me/soash_sadat" target="_blank"><i class="fab fa-telegram"></i> Telegram</a>
-            <a href="https://wa.me/8801737309185" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-            <a href="https://github.com/soash" target="_blank"><i class="fab fa-github"></i>Github</a>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 | Soash</p>
+    <footer class="text-light py-4 mt-md-5 mt-2" style="background: #1c1f23;">
+      <div class="container text-center">
+        <p class="mb-1">&copy; 2025 Soash. All rights reserved.</p>
+      </div>
     </footer>
 
-    <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
 
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
+    
 
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
+  </div>
+</div>
 
-        function showSlides(n) {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            let dots = document.getElementsByClassName("dot");
-            if (n > slides.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = slides.length }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-        }
-    </script>
-
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="src/scripts.js"></script>
 </body>
-
 </html>
-
-
