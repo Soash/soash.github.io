@@ -5,9 +5,7 @@ This site showcases my projects, blog posts, and more.
 
 ## 📫 Contact
 
-- [soash.github.io](https://soash.github.io/)
 - [Email](mailto:soash.sadat@gmail.com)
-- [GitHub](https://github.com/soash)
 
 ---
 
