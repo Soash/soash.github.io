@@ -5,7 +5,7 @@
     "badge": "Research Project",
     "badgeColor": "dark",
     "link": "#",
-    "buttonText": "View Project"
+    "buttonText": "Ongoing Project"
   },
   {
     "title": "Streptococcus suis Pangenomics",
@@ -13,25 +13,8 @@
     "badge": "Bioinformatics",
     "badgeColor": "dark",
     "link": "#",
-    "buttonText": "View Project"
+    "buttonText": "Ongoing Project"
   },
-  {
-    "title": "Club Foot Case Study",
-    "description": "A case study on clubfoot, a congenital deformity.",
-    "badge": "Case Study",
-    "badgeColor": "dark",
-    "link": "https://soash-sadat.blogspot.com/2023/01/case-study-on-clubfoot.html",
-    "buttonText": "Read Article"
-  },
-  {
-    "title": "Hidden Antitoxin in Salmonella",
-    "description": "In silico annotation of hypothetical protein ACLVWE_24230.",
-    "badge": "Research Project",
-    "badgeColor": "dark",
-    "link": "https://soash-sadat.blogspot.com/2025/11/in-silico-annotation-reveals.html",
-    "buttonText": "Read Article"
-  },
-
   {
     "title": "Breast Cancer scRNA-seq Pipeline",
     "description": "Single-cell transcriptomics and drug repurposing analysis of breast cancer macrophages.",
@@ -71,6 +54,22 @@
     "badgeColor": "dark",
     "link": "https://phagebiomelab.com/",
     "buttonText": "Visit Project"
+  },
+  {
+    "title": "Club Foot Case Study",
+    "description": "A case study on clubfoot, a congenital deformity.",
+    "badge": "Case Study",
+    "badgeColor": "dark",
+    "link": "https://soash-sadat.blogspot.com/2023/01/case-study-on-clubfoot.html",
+    "buttonText": "Read Article"
+  },
+  {
+    "title": "Hidden Antitoxin in Salmonella",
+    "description": "In silico annotation of hypothetical protein ACLVWE_24230.",
+    "badge": "Research Project",
+    "badgeColor": "dark",
+    "link": "https://soash-sadat.blogspot.com/2025/11/in-silico-annotation-reveals.html",
+    "buttonText": "Read Article"
   }
 ]
 
