@@ -43,12 +43,16 @@
     "buttonText": "View Project"
   },
   {
-    "title": "BMPPD Database",
-    "description": "Curated database of Bangladeshi medicinal plant phytochemicals with 113k+ entries.",
+    "title": "BMPPD: Bangladeshi Medicinal Plant Phytochemicals Database",
+    "description": "",
+    "authors": "Sk. Faisal Ahmed, Amir Alve, Imranur Rahman, Abir Hossain, Shormila Akter Sumya, Md Shah Paran, Md Abu Sadat Soash, Md Raihan Ahmed, Esha Mony Bristy, Kaniz Fatema, Md Asif Siddque Jim, Zannatul Firdaus, Rafa Uddin, Md Tajul Islam, Taiyara Mahjabin, Md Ismail Hossain, Rakibul Hasan Alif, Md Aftabur Rahman, Rahat Moinul Islam, Foysal Ahmed, Mst. Marjeya, Mst. Afrin Mustari, Md Ashrarul Hasib, Md Sadique Hossain, Nishat Ulfat Nity, Md Foisal Imtiaz, Ovejan Paul Rudra, Asifuzzaman Zisan, Md Delwar Hossen, Tania Akter Nirjona, Prami Chowdhury Badhan",
+    "affiliation": "Dawn of Bioinformatics Limited Bangladesh (2026)",
+    "abstract": "Natural products derived from medicinal flora represent a primary cornerstone of pharmacophore discovery and traditional healthcare systems. Despite Bangladesh's extensive botanical diversity and deep-rooted ethnopharmacological heritage, scientific exploration of these bioresources has historically suffered from fragmented literature, unstandardized vernacular taxonomies, and an absence of unified computational repositories.\n\nHere, we present the Bangladeshi Medicinal Plant Phytochemicals Database (BMPPD) (https://bmppd.org), the first comprehensive, peer-curated, web-accessible cheminformatics and ethnobotanical database devoted to the medicinal plants of Bangladesh. Developed over two years of rigorous literature synthesis at Dawnilab (the research hub of Dawn of Bioinformatics Limited Bangladesh), BMPPD bridges ethnobotanical folk taxonomy with structured molecular cheminformatics.\n\nCurrently, the operational database indexes 341 verified botanical species, linked to 712 vernacular/common names, 31,717 curated plant–metabolite associations, 16,333 unique phytochemical entities, and 10,302 cross-referenced PubChem Compound Identifiers (CIDs), with a cumulative data pipeline encompassing upwards of 700 medicinal taxa and >113,000 phytochemical entries. Equipped with multi-tiered querying (scientific nomenclature, vernacular designations, compound designations, and PubChem CIDs), automated literature provenance tracing, and an interactive crowdsourced plant request tracking mechanism, BMPPD provides an open, high-performance foundation for secondary metabolite exploration, virtual screening, network pharmacology, and rational drug discovery.",
     "badge": "Database",
     "badgeColor": "dark",
     "link": "https://bmppd.org/",
-    "buttonText": "Explore Database"
+    "buttonText": "Explore Database",
+    "github": "https://github.com/Soash/DOB-BD-Plant-Phytochemicals-DB"
   },
   {
     "title": "Phagebiome Lab",

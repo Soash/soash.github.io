@@ -106,6 +106,15 @@ fetch('projects.json')
         actionBtn = `<span class="badge bg-secondary py-2 px-3">${project.buttonText}</span>`;
       }
 
+      let githubBtn = '';
+      if (project.github) {
+        githubBtn = `
+          <a href="${project.github}" target="_blank" class="btn btn-dark btn-sm">
+            <i class="bi bi-github me-1"></i> GitHub
+          </a>
+        `;
+      }
+
       const abstractCollapse = hasAbstract ? `
         <div class="collapse mt-3" id="${abstractId}">
           <div class="card card-body bg-light border-0 text-muted" style="font-size: 0.9em; white-space: pre-line;">
@@ -125,6 +134,7 @@ fetch('projects.json')
               <span class="badge bg-${project.badgeColor} py-2 px-3">${project.badge}</span>
               ${abstractBtn}
               ${actionBtn}
+              ${githubBtn}
             </div>
             ${abstractCollapse}
           </div>
