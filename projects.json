@@ -1,5 +1,5 @@
 [
-    {
+  {
     "title": "Multienzyme Isothermal NAT",
     "description": "Low-cost nucleic acid testing platform for infectious disease detection and smartphone-based diagnostics.",
     "badge": "Research Project",
@@ -24,8 +24,12 @@
     "buttonText": "View Project"
   },
   {
-    "title": "Methanobrevibacter smithii Genomics",
-    "description": "Pan-metagenomic study of industrialization-driven adaptations in the human gut archaeome.",
+    "title": "Host Industrialization Drives Dietary-Dependent Structural Variation and Gene Shedding in the Human Gut Archaeon Methanobrevibacter smithii",
+    "description": "Pan-metagenomic study of 219 high-quality UHGG MAGs identifying lifestyle-specific accessory gene biomarkers and diet-driven gene shedding in the human gut archaeome.",
+    "authors": "Md Abu Sadat Soash",
+    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+    "email": "soash.sadat@gmail.com",
+    "abstract": "Background: Methanobrevibacter smithii is the dominant archaeal keystone species in the human gut, playing a crucial role in syntrophic hydrogen removal. While bacterial responses to host industrialization and Westernized diets are well documented, the adaptive capacity of the gut archaeome remains largely unexplored due to an over-reliance on 16S rRNA amplicon sequencing.\n\nMethods: To investigate archaeal structural adaptation, we conducted a pan-metagenomic analysis of 219 high-quality M. smithii Metagenome-Assembled Genomes (MAGs) retrieved from the UHGG catalog. We stratified the genomes into an Industrialized cohort (US and UK; n=172) and a Non-Industrialized cohort (Peru, Fiji, Madagascar; n=47) to identify lifestyle-specific accessory gene biomarkers.\n\nResults: M. smithii possesses a highly open pangenome, with a massive cloud genome constituting 77.4% of its genetic repertoire. Statistical enrichment analysis revealed a striking pattern of diet-driven gene shedding. Industrialized strains exhibited a near-total loss of genes related to Vitamin B12 scavenging (BtuC/D) and Lysine biosynthesis, reflecting an adaptation to nutrient-dense Western diets. Conversely, industrialized strains showed significant enrichment in methanogenesis optimization genes, notably the polyferredoxin protein MvhB.\n\nConclusion: Our findings demonstrate that M. smithii is not a static monolithic entity but a highly dynamic symbiote. Its accessory genome is actively sculpted by host dietary history and localized ecological pressures, highlighting the necessity of strain-level structural analysis in understanding microbiome evolution.",
     "badge": "Genomics",
     "badgeColor": "dark",
     "link": "https://github.com/Soash/m-smithii-lifestyle-pangenome",
@@ -47,7 +51,7 @@
     "link": "https://bmppd.org/",
     "buttonText": "Explore Database"
   },
-    {
+  {
     "title": "Phagebiome Lab",
     "description": "Research group website based at SUST.",
     "badge": "Web App",
@@ -72,4 +76,3 @@
     "buttonText": "Read Article"
   }
 ]
-

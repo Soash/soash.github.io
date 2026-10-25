@@ -13,7 +13,7 @@
 <div class="container-fluid">
   <div class="row">
 
-<!-- Sidebar (Desktop) -->
+    <!-- Sidebar (Desktop) -->
     <div id="sidebar" class="col-md-3 sidebar p-4 d-none d-md-block"></div>
 
     <!-- Mobile Navbar -->
@@ -52,7 +52,6 @@
             <div id="projectsContainer" class="d-flex flex-column gap-3"></div>
         </section>
 
-
     </div>
 
   </div>
@@ -66,22 +65,52 @@ fetch('projects.json')
   .then(data => {
     const container = document.getElementById('projectsContainer');
 
-    data.forEach(project => {
+    data.forEach((project, index) => {
+      const hasAbstract = Boolean(project.abstract);
+      const abstractId = `abstract-${index}`;
+
+      const authorHtml = project.authors ? `
+        <p class="text-muted mb-2" style="font-size: 0.9em;">
+          <strong>Author(s):</strong> ${project.authors}
+          ${project.affiliation ? `<br><span class="fst-italic">${project.affiliation}</span>` : ''}
+          ${project.email ? ` &bull; <a href="mailto:${project.email}" class="text-decoration-none">${project.email}</a>` : ''}
+        </p>
+      ` : '';
+
+      const abstractBtn = hasAbstract ? `
+        <button class="btn btn-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#${abstractId}" aria-expanded="false" aria-controls="${abstractId}">
+          Read Abstract
+        </button>
+      ` : '';
+
+      const abstractCollapse = hasAbstract ? `
+        <div class="collapse mt-3" id="${abstractId}">
+          <div class="card card-body bg-light border-0 text-muted" style="font-size: 0.9em; white-space: pre-line;">
+            ${project.abstract}
+          </div>
+        </div>
+      ` : '';
+
       const card = `
         <div class="card shadow-sm border-dark">
-          <div class="card-body d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3">
-            <div>
-              <div class="d-flex align-items-center gap-2 mb-2">
-                <h5 class="card-title mb-0 fw-bold">${project.title}</h5>
-                <span class="badge bg-${project.badgeColor}">${project.badge}</span>
+          <div class="card-body">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3">
+              <div>
+                <div class="d-flex align-items-center gap-2 mb-2">
+                  <h5 class="card-title mb-0 fw-bold">${project.title}</h5>
+                  <span class="badge bg-${project.badgeColor}">${project.badge}</span>
+                </div>
+                <p class="card-text text-muted mb-2">${project.description}</p>
+                ${authorHtml}
               </div>
-              <p class="card-text text-muted mb-0">${project.description}</p>
+              <div class="text-md-end flex-shrink-0 d-flex gap-2 align-items-center">
+                ${abstractBtn}
+                <a href="${project.link}" target="_blank" class="btn btn-outline-dark btn-sm">
+                  ${project.buttonText}
+                </a>
+              </div>
             </div>
-            <div class="text-md-end flex-shrink-0">
-              <a href="${project.link}" target="_blank" class="btn btn-outline-dark btn-sm">
-                ${project.buttonText}
-              </a>
-            </div>
+            ${abstractCollapse}
           </div>
         </div>
       `;
