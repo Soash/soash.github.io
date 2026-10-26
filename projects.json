@@ -67,6 +67,17 @@
     "buttonText": "GitHub"
   },
   {
+    "title": "In Silico Structural and Functional Annotation of Hypothetical Protein ACLVWE_24230 from Salmonella enterica Serovar Typhi Plasmid: An MqsA-Family Antitoxin and HTH Transcriptional Regulator",
+    "description": "",
+    "authors": "Md Abu Sadat Soash",
+    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+    "abstract": "Salmonella enterica subsp. enterica serovar Typhi is the causative agent of typhoid fever, an invasive systemic disease posing substantial global healthcare challenges. Plasmids within S. enterica frequently harbor genes of unknown biological significance (\"hypothetical proteins\") that may drive plasmid maintenance, virulence, stress resilience, or antibiotic tolerance. In this research, an extensive, multi-tier in silico workflow was deployed to structurally and functionally annotate the uncharacterized hypothetical protein ACLVWE_24230 (GenBank: XYZ87145.1), encoded on a plasmid of S. enterica serovar Typhi.\n\nPhysicochemical profiling characterized ACLVWE_24230 as an 80-amino-acid, basic (theoretical pI = 9.00), hydrophilic (GRAVY = −0.761), and highly stable (Instability Index = 21.18) cytoplasmic protein with a molecular weight of 9.015 kDa. Conserved Domain Database (CDD) and Pfam analyses revealed the presence of a definitive MqsA-family antitoxin domain (pfam15731, E-value: 3.84 × 10⁻⁵) harboring a conserved Helix-Turn-Helix (HTH_XRE) DNA-binding motif (cd00093). High-confidence 3D homology modeling using the AlphaFold-predicted template of YajA from Salmonella thompson achieved full-length sequence coverage with a Global Model Quality Estimation (GMQE) score of 0.90. Stereochemical validation via MolProbity yielded a MolProbity score of 0.92, zero clash score, and 93.59% residues in favored Ramachandran regions. Cavity analysis identified a major functional surface pocket (Area = 134.88 Å², Volume = 250.55 Å³) clustering within the HTH motif. Molecular docking against toxin MqsR (from PDB: 3HI2) via ClusPro demonstrated high-affinity interaction (Cluster 0 weighted score: −720.3 kcal/mol) with an interface backbone RMSD = 0.075 Å relative to experimental E. coli MqsA-MqsR complexes. These findings demonstrate that ACLVWE_24230 functions as an MqsA-family antitoxin and HTH transcriptional regulator, providing insights into plasmid stability and bacterial persistence in typhoid fever.",
+    "badge": "Structural Biology",
+    "badgeColor": "dark",
+    "link": "https://github.com/Soash/salmonella-mqsa-annotation",
+    "buttonText": "GitHub"
+  },
+  {
     "title": "BMPPD: Bangladeshi Medicinal Plant Phytochemicals Database",
     "description": "",
     "authors": "Sk. Faisal Ahmed, Amir Alve, Imranur Rahman, Abir Hossain, Shormila Akter Sumya, Md Shah Paran, Md Abu Sadat Soash, Md Raihan Ahmed, Esha Mony Bristy, Kaniz Fatema, Md Asif Siddque Jim, Zannatul Firdaus, Rafa Uddin, Md Tajul Islam, Taiyara Mahjabin, Md Ismail Hossain, Rakibul Hasan Alif, Md Aftabur Rahman, Rahat Moinul Islam, Foysal Ahmed, Mst. Marjeya, Mst. Afrin Mustari, Md Ashrarul Hasib, Md Sadique Hossain, Nishat Ulfat Nity, Md Foisal Imtiaz, Ovejan Paul Rudra, Asifuzzaman Zisan, Md Delwar Hossen, Tania Akter Nirjona, Prami Chowdhury Badhan",
@@ -89,19 +100,14 @@
     "github": "https://github.com/Soash/PhageBiomeLab"
   },
   {
-    "title": "Club Foot Case Study",
-    "description": "A case study on clubfoot, a congenital deformity.",
+    "title": "Epidemiological and Clinical Case Study on Clubfoot (CTEV) in Bangladesh",
+    "description": "",
+    "authors": "Md Nehamul Islam Nehad, Sunayda Jahan Sruty, Ridoy Chandra Roy, Md Abu Sadat Soash, Shatabdi Roy, Alvee Alam, Jahidul Islam Shovo, Shadman Mutassim Efad",
+    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+    "abstract": "Clubfoot is a congenital foot deformity characterised by medial deviation of the heel, forefoot adduction, and ankle inversion. While global prevalence is approximately 1 in 1,000 live births, in Bangladesh the estimated incidence is around 1 in 900 births (~5,000 children born each year with the condition).\n\nThis study documents primary clinical, familial, and demographic profiles of 16 patients evaluated through hospital visits and door-to-door field interviews across multiple districts of Bangladesh. The investigation assesses:\n• Clinical variation and deformity classification (Equinovarus, Varus, unilateral vs. bilateral).\n• Therapeutic interventions (the non-invasive Ponseti method involving serial casting, Achilles tenotomy, and bracing vs. surgical procedures).\n• Potential hereditary components and syndromic associations (chromosomal involvement such as 17q23 microdeletions/duplications, trisomies, and multi-generational recurrence).\n• Socioeconomic bottlenecks, healthcare infrastructure gaps, and treatment adherence barriers affecting low-income families in Bangladesh.",
     "badge": "Case Study",
     "badgeColor": "dark",
-    "link": "https://soash-sadat.blogspot.com/2023/01/case-study-on-clubfoot.html",
-    "buttonText": "Read Article"
-  },
-  {
-    "title": "Hidden Antitoxin in Salmonella",
-    "description": "In silico annotation of hypothetical protein ACLVWE_24230.",
-    "badge": "Research Project",
-    "badgeColor": "dark",
-    "link": "https://soash-sadat.blogspot.com/2025/11/in-silico-annotation-reveals.html",
-    "buttonText": "Read Article"
+    "link": "https://github.com/Soash/clubfoot-case-study-bd",
+    "buttonText": "GitHub"
   }
 ]
