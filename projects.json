@@ -23,6 +23,17 @@
     "buttonText": "Preprint"
   },
   {
+    "title": "Artificial Intelligence in Drug Discovery: Problems and Prospects - A Case Study in Predictive Modeling and Virtual Screening for Acetylcholinesterase Inhibition",
+    "description": "",
+    "authors": "Md Abu Sadat Soash, Sajib Mia",
+    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+    "abstract": "Artificial intelligence (AI) is frequently described as transformative for drug discovery, yet recent critical appraisals note that its demonstrated clinical impact remains limited relative to the scale of investment and publication in the field. This study examines the problems and prospects of AI in drug discovery through a literature review combined with an original, fully reproducible case study targeting human acetylcholinesterase (AChE)—the biological target of every approved symptomatic Alzheimer's disease therapy.\n\nUsing bioactivity data extracted directly from the official ChEMBL release 37 SQLite database for human AChE (CHEMBL220), we built Random Forest models predicting inhibitory potency (pIC50, R² = 0.72, RMSE = 0.74) and active/inactive status (ROC-AUC = 0.966, Accuracy 91.3%) from 1024-bit Morgan circular fingerprints alone. Model validity was verified via 3-fold cross-validation and a rigorous 5-iteration Y-randomization control, which collapsed performance to chance level (R² ≈ -0.19, AUC ≈ 0.50) upon activity label shuffling, definitively ruling out data leakage and artificial inflation.\n\nInterpretability analysis revealed that the model independently rediscovered the canonical O–C(=O)–NH carbamate pharmacophore shared by clinically used AChE inhibitors (rivastigmine, neostigmine, and physostigmine) without prior biochemical supervision. The validated models were then applied to virtually screen 738,823 natural products from the COCONUT database within a defined applicability domain. The pipeline reliably recovered known benchmark inhibitors (donepezil, tacrine, and the physostigmine alkaloid family) while prioritizing a non-duplicate chemotype, 2-butyl-diazaspiro[4,4]non-1-en-4-ones (derived from the irbesartan core intermediate), independently corroborated by published in vitro Ellman enzymatic inhibition literature. Together, these results illustrate both the genuine computational prospects and the practical constraints—data curation burdens, applicability domains, and the essential distinction between rediscovery and true novelty—that characterize contemporary AI-driven drug discovery.",
+    "badge": "Cheminformatics",
+    "badgeColor": "dark",
+    "link": "https://github.com/Soash/ache-inhibitor-virtual-screening",
+    "buttonText": "GitHub"
+  },
+  {
     "title": "Targeting High-Risk Macrophage Phenotypes in the Breast Cancer Microenvironment: A Single-Cell Transcriptomic and Drug Repurposing Analysis",
     "description": "",
     "authors": "Md Abu Sadat Soash, <a href=\"https://scholar.google.com/citations?user=7-s-GaIAAAAJ\" target=\"_blank\" class=\"text-decoration-none\">Raphael Kabir Niloy</a>",
