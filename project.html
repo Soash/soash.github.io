@@ -129,6 +129,21 @@ fetch('projects.json')
         </div>
       ` : '';
 
+      const badgeHtml = project.badge ? `
+        <span class="badge bg-${project.badgeColor || 'dark'} py-2 px-3">${project.badge}</span>
+      ` : '';
+
+      const buttonsHtml = project.github ? `
+        ${badgeHtml}
+        ${actionBtn}
+        ${abstractBtn}
+        ${githubBtn}
+      ` : `
+        ${badgeHtml}
+        ${abstractBtn}
+        ${actionBtn}
+      `;
+
       const card = `
         <div class="card shadow-sm border-dark">
           <div class="card-body">
@@ -137,10 +152,7 @@ fetch('projects.json')
             ${affiliationHtml}
             ${descriptionHtml}
             <div class="d-flex flex-wrap align-items-center gap-2 mt-2">
-              <span class="badge bg-${project.badgeColor} py-2 px-3">${project.badge}</span>
-              ${abstractBtn}
-              ${githubBtn}
-              ${actionBtn}
+              ${buttonsHtml}
             </div>
             ${abstractCollapse}
           </div>
