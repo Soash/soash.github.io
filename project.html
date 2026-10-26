@@ -73,6 +73,7 @@ fetch('projects.json')
       const authorHtml = project.authors ? `
         <p class="mb-1 text-muted" style="font-size: 0.95em;">
           <strong>Author(s):</strong> ${project.authors}
+          ${project.supervisor ? ` &bull; <strong>Supervisor:</strong> ${project.supervisor}` : ''}
         </p>
       ` : '';
 
@@ -133,8 +134,8 @@ fetch('projects.json')
             <div class="d-flex flex-wrap align-items-center gap-2 mt-2">
               <span class="badge bg-${project.badgeColor} py-2 px-3">${project.badge}</span>
               ${abstractBtn}
-              ${actionBtn}
               ${githubBtn}
+              ${actionBtn}
             </div>
             ${abstractCollapse}
           </div>
