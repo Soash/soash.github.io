@@ -49,7 +49,7 @@
     <div class="col-md-9 main-content p-2 p-md-5">
         
         <section id="projects" class="mb-5">
-            <h4 class="section-title mb-4">Research Projects</h4>
+            <h4 class="section-title mb-4">Research Projects (<span id="projectCount"></span>)</h4>
             <div id="projectsContainer" class="d-flex flex-column gap-3"></div>
         </section>
 
@@ -64,15 +64,20 @@
 fetch('projects.json')
   .then(response => response.json())
   .then(data => {
+    const countEl = document.getElementById('projectCount');
+    if (countEl) countEl.textContent = data.length;
     const container = document.getElementById('projectsContainer');
 
     data.forEach((project, index) => {
       const hasAbstract = Boolean(project.abstract);
       const abstractId = `abstract-${index}`;
 
-      const authorHtml = project.authors ? `
+      const authorLabel = project.authorLabel || 'Author(s)';
+      const authorNames = project.authors || project.developers;
+
+      const authorHtml = authorNames ? `
         <p class="mb-1 text-muted" style="font-size: 0.95em;">
-          <strong>Author(s):</strong> ${project.authors}
+          <strong>${authorLabel}:</strong> ${authorNames}
           ${project.supervisor ? ` &bull; <strong>Supervisor:</strong> ${project.supervisor}` : ''}
         </p>
       ` : '';
