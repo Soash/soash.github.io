@@ -89,7 +89,7 @@ fetch('projects.json')
 
       const abstractBtn = hasAbstract ? `
         <button class="btn btn-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#${abstractId}" aria-expanded="false" aria-controls="${abstractId}">
-          <i class="bi bi-file-earmark-text me-1"></i> Read Abstract
+          <i class="bi bi-file-earmark-text me-1"></i> Abstract
         </button>
       ` : '';
 
@@ -118,7 +118,7 @@ fetch('projects.json')
 
       const abstractCollapse = hasAbstract ? `
         <div class="collapse mt-3" id="${abstractId}">
-          <div class="card card-body bg-light border-0 text-muted" style="font-size: 0.9em; white-space: pre-line;">
+          <div class="card card-body bg-light" style="font-size: 0.9em; white-space: pre-line;">
             ${project.abstract}
           </div>
         </div>

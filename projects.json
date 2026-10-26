@@ -4,7 +4,7 @@
     "description": "",
     "authors": "Md Abu Sadat Soash",
     "supervisor": "Prof. Dr. Gokul Chandra Biswas",
-    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet-3114, Bangladesh",
+    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
     "abstract": "Cervical cancer is a leading cause of cancer death among women around the globe. HPV vaccination has not been properly introduced yet. Screening of cervical cancer incidences still relies on visual inspection with acetic acid. HPV DNA testing, recommended by the World Health Organization, remains unimplemented in developing country like Bangladesh. Quantitative PCR used in HPV DNA testing requires thermal cyclers, stable electricity, cold-chain reagents, and trained personnel. To mitigate these challenges, this study aimed to develop an equipment-free assay for the simultaneous detection of the E6 oncogene of HPV-16 and HPV-18, thereby confirming the incidence of cervical cancer-associated. The test or diagnosis combines the Multienzyme Isothermal Rapid Amplification (MIRA) of target biomarker with a duplex lateral flow dipstick (LFD). Genotype-specific primers and internal NFO probes were designed against synthetic E6 fragments. An initial design placed fluorescein and hapten labels directly on the primers. This produced false positives outcomes in no-template controls, caused by dual-labelled primer-dimers. The assay was redesigned around an unlabeled forward primer and an internal FAM-labelled NFO probe. Thus, false-positive results were eliminated in negative controls. Band intensities were quantified by image analysis across reaction temperature, incubation time, and template copy numbers. At 37 °C, which resembles body temperature, both genotypes were detected within 30 min at copy number of 1 copy/µL. However, the results are inconsistent due to Poisson Distribution effect, whereas 10 copies/µL shows intense and steady band. Interestingly at 30 °C (ambient temperature), detection were positive by visual bands; howerver, they were faint band on both test lines. These were too marginal for confident visual interpretation. The HPV-18 signal rose early and then plateaued. The HPV-16 signal remained low until 20 min and then rose steeply. Raising the template from 10 to 100 copies/µL increased the HPV-18 signal and slightly compromised the HPV-16 signal, indicating competition for shared reaction components. The platform detects both genotypes at 10 copies/µL within 30 min at body temperature without requiring a thermal cycler, power supply, and or readout instrument. It is therefore suited to cervical cancer diagnosis in clinics and community settings where laboratory infrastructure is absent. With further optimization and thorough clinical validation, the MIRA-LFD assay system has the potential to become a promising point-of-care testing platform.",
     "badge": "Research Project",
     "badgeColor": "dark",
@@ -12,20 +12,26 @@
     "buttonText": "Ongoing Project"
   },
   {
-    "title": "Streptococcus suis Pangenomics",
-    "description": "Comparative genomics and subtractive genomics analysis for therapeutic target identification.",
-    "badge": "Bioinformatics",
-    "badgeColor": "dark",
-    "link": "#",
-    "buttonText": "Ongoing Project"
-  },
-  {
-    "title": "Breast Cancer scRNA-seq Pipeline",
-    "description": "Single-cell transcriptomics and drug repurposing analysis of breast cancer macrophages.",
+    "title": "Targeting High-Risk Macrophage Phenotypes in the Breast Cancer Microenvironment: A Single-Cell Transcriptomic and Drug Repurposing Analysis",
+    "description": "",
+    "authors": "Md Abu Sadat Soash, Raphael Kabir Niloy",
+    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+    "abstract": "The tumor microenvironment (TME) is a complex ecosystem where distinct cellular states dictate disease progression and therapeutic resistance. In this study, we performed a comprehensive single-cell transcriptomic dissection of the breast cancer TME using publicly available scRNA-seq data (12 paired samples across 6 patients; 98,410 high-quality cells). Unsupervised clustering identified 39 distinct cellular subpopulations. By applying the Single-Cell Phenotype-Associated Signatures (scPAS) risk-scoring algorithm mapped against TCGA-BRCA survival metrics, we discovered a highly immunosuppressive macrophage subpopulation that serves as a primary driver of high-risk clinical phenotypes.\n\nPathway enrichment analysis revealed that these scPAS+ macrophages are hyper-metabolic, relying heavily on Oxidative Phosphorylation (OXPHOS), and are actively engaged in antigen presentation, phagocytosis, and chemotaxis to orchestrate an immunosuppressive ecosystem. To identify therapeutic vulnerabilities, we deployed dual in silico drug repurposing pipelines (DrugReSC and ASGARD). These analyses consistently identified targeted kinase inhibitors (e.g., Dabrafenib, Vemurafenib, Imatinib, Pazopanib) and proteasome inhibitors (e.g., Ixazomib) as top candidates capable of reversing the high-risk transcriptomic signature. Our findings provide a robust computational framework for identifying and targeting prognostic macrophage states to improve breast cancer immunotherapy outcomes.",
     "badge": "Bioinformatics",
     "badgeColor": "dark",
     "link": "https://github.com/Soash/BRCA-scRNA-Drug-Repurposing",
-    "buttonText": "View Project"
+    "buttonText": "GitHub"
+  },
+  {
+    "title": "scRNA-seq Guided In Silico Drug Repurposing Identifies Candidate Therapeutics for Hemorrhagic Fever with Renal Syndrome",
+    "description": "",
+    "authors": "Md Abu Sadat Soash",
+    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+    "abstract": "Hemorrhagic Fever with Renal Syndrome lacks targeted FDA-approved therapeutics. This study aims to identify novel therapeutic candidates capable of reversing the pathogenic transcriptomic signatures of HFRS, specifically targeting the abnormal presence of Nucleated Red Blood Cells (NRBCs) and multilineage immune dysregulation.\n\nWe obtained peripheral blood mononuclear cell single-cell RNA sequencing (scRNA-seq) data from HFRS patients and healthy controls. Utilizing Seurat v5 for data integration and the ASGARD computational pipeline, we extracted differential expression profiles and queried them against the LINCS L1000 pharmacogenomic database.\n\nThe multi-cluster ASGARD pipeline successfully identified 13 statistically significant FDA-approved drug candidates. Vorinostat and Tretinoin emerged as the top-ranked candidates capable of rescuing immune hyper-inflammation and HFRS-induced erythroid maturation arrest.\n\nOur in silico framework successfully translates scRNA-seq pathogenesis data into actionable therapeutic targets, providing a strong rationale for immediate in vitro validation of Vorinostat and Tretinoin for HFRS treatment.",
+    "badge": "Bioinformatics",
+    "badgeColor": "dark",
+    "link": "https://github.com/Soash/HFRS-scRNA-Drug-Repurposing",
+    "buttonText": "GitHub"
   },
   {
     "title": "Host Industrialization Drives Dietary-Dependent Structural Variation and Gene Shedding in the Human Gut Archaeon Methanobrevibacter smithii",
@@ -39,12 +45,15 @@
     "buttonText": "GitHub"
   },
   {
-    "title": "Spacecraft Cleanroom Resistome",
-    "description": "Metagenomic pipeline analyzing AMR and biocide resistance in NASA cleanrooms.",
+    "title": "Environmental Resistome and Homogenization of Extremotolerant Communities in Jet Propulsion Laboratory Cleanroom Environments",
+    "description": "",
+    "authors": "Md Abu Sadat Soash",
+    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+    "abstract": "Jet Propulsion Laboratory (JPL) cleanroom environments adhere to strict planetary protection protocols to minimize microbial bioburden, inadvertently creating selective pressures that drive the survival of extremotolerant, multidrug-resistant (MDR) microbes. This study maps the spatial distribution and ecological diversity of the environmental resistome within a JPL Mars Exploration Program cleanroom using short-read metagenomic sequencing data (OSD-944). Following the removal of mock community controls and normalization of sequencing depth to Coverage Per Million (CPM), the resistome was characterized against the KEGG and BacMet databases.\n\nSpatial analysis revealed the highest localized burdens of antimicrobial resistance (AMR) in human transition zones, specifically the floor by cabinets (1,211.6 CPM) and gowning rooms (1,066.5 CPM), while critical spacecraft assembly surfaces exhibited near-zero AMR loads. Despite these observational differences, statistical evaluations including Kruskal-Wallis (H = 8.5686, p = 0.285) and PERMANOVA (pseudo-F = 1.123, p = 0.321) indicated no significant spatial variance in total AMR burden or microbial community composition across the facility footprint. Taxonomic profiling identified primary carriers of resistance mechanisms as Acinetobacter, Brevundimonas, and Paracoccus species, alongside eukaryotic fungi such as Aspergillus. The detection of broad-spectrum efflux pumps, such as mexJK, and dual-resistance genes highlights a uniform, highly selected microbiome shaped by stringent sterilization protocols.",
     "badge": "Metagenomics",
     "badgeColor": "dark",
-    "link": "https://github.com/Soash/spacecraft-resistome-dynamics",
-    "buttonText": "View Project"
+    "link": "https://github.com/Soash/nasa-osd944-resistome-analysis",
+    "buttonText": "GitHub"
   },
   {
     "title": "BMPPD: Bangladeshi Medicinal Plant Phytochemicals Database",
