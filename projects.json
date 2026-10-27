@@ -25,6 +25,17 @@
     "buttonText": "GitHub"
   },
   {
+    "title": "LFA-Analyzer: Interactive Computer Vision and Densitometry Suite for Lateral Flow Immunoassay Quantification",
+    "description": "",
+    "authors": "Md Abu Sadat Soash",
+    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+    "abstract": "Lateral Flow Immunoassays (LFAs) represent one of the most widely deployed point-of-care (PoC) diagnostic platforms across clinical, veterinary, food safety, and environmental domains. Although traditionally deployed as qualitative binary (yes/no) readout devices, there is an increasing demand for objective, semi-quantitative, and fully quantitative diagnostic evaluations. Variable ambient illumination, phone camera perspective distortions, strip misalignment inside cassette windows, and non-uniform nitrocellulose background coloration frequently compromise photometric reproducibility.\n\nLFA-Analyzer is an open-source, specialized computer vision and analytical densitometry framework engineered to transform qualitative LFA strips into rigorous, background-subtracted optical density measurements. The analytical pipeline couples planar homography perspective rectification in Fiji/ImageJ with an interactive analytical densitometry desktop application featuring float64 multi-channel array deconvolution, decoupled display-enhancement visualization, user-calibrated multi-region of interest (ROI) profiling, robust central-tendency statistics (mean vs. median), and automated batch quantification with CSV telemetry export.",
+    "badge": "Computer Vision",
+    "badgeColor": "dark",
+    "link": "https://github.com/Soash/lfa-analyzer",
+    "buttonText": "GitHub"
+  },
+  {
     "title": "Docking and Molecular Dynamics of the Natural Diterpenoid Dihydrotanshinone I in Human 15-PGDH Across Three Inhibitor-Bound Receptor Structures",
     "description": "",
     "authors": "<a href=\"https://orcid.org/0009-0008-4020-2316\" target=\"_blank\" class=\"text-decoration-none\">Sabbir Ahmad Antor</a>, <a href=\"https://orcid.org/0009-0001-1116-2449\" target=\"_blank\" class=\"text-decoration-none\">Md Abu Sadat Soash</a>, Muktadir Al Mahmud, <a href=\"https://orcid.org/0009-0006-4907-4221\" target=\"_blank\" class=\"text-decoration-none\">Raphael Kabir Niloy</a>, <a href=\"https://orcid.org/0009-0003-2929-6271\" target=\"_blank\" class=\"text-decoration-none\">Md. Mainul Hossain Bakul</a>, <a href=\"https://orcid.org/0000-0001-9097-6426\" target=\"_blank\" class=\"text-decoration-none\">Gokul Chandra Biswas</a>",
