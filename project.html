@@ -99,12 +99,13 @@ fetch('projects.json')
       ` : '';
 
       let actionBtn = '';
-      if (project.link && project.link !== '#') {
-        const isGithub = project.buttonText === 'GitHub' || project.link.includes('github.com');
+      if (project.link) {
+        const isGithub = project.buttonText === 'GitHub' || (typeof project.link === 'string' && project.link.includes('github.com'));
         const icon = isGithub ? '<i class="bi bi-github me-1"></i>' : '<i class="bi bi-box-arrow-up-right me-1"></i>';
         const btnClass = isGithub ? 'btn-dark' : 'btn-outline-dark';
+        const targetAttr = project.link === '#' ? '' : ' target="_blank"';
         actionBtn = `
-          <a href="${project.link}" target="_blank" class="btn ${btnClass} btn-sm">
+          <a href="${project.link}"${targetAttr} class="btn ${btnClass} btn-sm">
             ${icon} ${project.buttonText}
           </a>
         `;
@@ -129,9 +130,22 @@ fetch('projects.json')
         </div>
       ` : '';
 
-      const badgeHtml = project.badge ? `
-        <span class="badge bg-${project.badgeColor || 'dark'} py-2 px-3">${project.badge}</span>
-      ` : '';
+      let badgeHtml = '';
+      if (Array.isArray(project.badges)) {
+        badgeHtml = project.badges.map(b => {
+          if (typeof b === 'object' && b !== null) {
+            return `<span class="badge bg-${b.color || 'dark'} py-2 px-3">${b.text}</span>`;
+          }
+          const color = String(b).toLowerCase() === 'ongoing' ? 'warning text-dark' : (project.badgeColor || 'dark');
+          return `<span class="badge bg-${color} py-2 px-3">${b}</span>`;
+        }).join(' ');
+      } else if (project.badge) {
+        badgeHtml = `<span class="badge bg-${project.badgeColor || 'dark'} py-2 px-3">${project.badge}</span>`;
+        if (project.status) {
+          const statusColor = project.statusColor || (project.status.toLowerCase() === 'ongoing' ? 'warning text-dark' : 'secondary');
+          badgeHtml += ` <span class="badge bg-${statusColor} py-2 px-3">${project.status}</span>`;
+        }
+      }
 
       const buttonsHtml = project.github ? `
         ${badgeHtml}

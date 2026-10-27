@@ -12,6 +12,19 @@
     "buttonText": "GitHub"
   },
   {
+    "title": "Development of a Rolling Circle Amplification–Based Lateral Flow Assay for Rapid Dengue Virus Detection",
+    "description": "",
+    "authors": "Nahian Kabir Arpa, Md Abu Sadat Soash, Md. Mainul Hossain Bakul",
+    "supervisor": "<a href=\"https://www.sust.edu/departments/geb/faculty/gcbiswas-geb@sust.edu\" target=\"_blank\" class=\"text-decoration-none\">Prof. Dr. Gokul Chandra Biswas</a>",
+    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+    "badge": "RCA-LFA",
+    "badgeColor": "dark",
+    "status": "Ongoing",
+    "statusColor": "warning text-dark",
+    "link": "#",
+    "buttonText": "GitHub"
+  },
+  {
     "title": "Docking and Molecular Dynamics of the Natural Diterpenoid Dihydrotanshinone I in Human 15-PGDH Across Three Inhibitor-Bound Receptor Structures",
     "description": "",
     "authors": "<a href=\"https://orcid.org/0009-0008-4020-2316\" target=\"_blank\" class=\"text-decoration-none\">Sabbir Ahmad Antor</a>, <a href=\"https://orcid.org/0009-0001-1116-2449\" target=\"_blank\" class=\"text-decoration-none\">Md Abu Sadat Soash</a>, Muktadir Al Mahmud, <a href=\"https://orcid.org/0009-0006-4907-4221\" target=\"_blank\" class=\"text-decoration-none\">Raphael Kabir Niloy</a>, <a href=\"https://orcid.org/0009-0003-2929-6271\" target=\"_blank\" class=\"text-decoration-none\">Md. Mainul Hossain Bakul</a>, <a href=\"https://orcid.org/0000-0001-9097-6426\" target=\"_blank\" class=\"text-decoration-none\">Gokul Chandra Biswas</a>",
