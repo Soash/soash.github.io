@@ -4,8 +4,6 @@
 [![Affiliation](https://img.shields.io/badge/Affiliation-GEB%20%7C%20SUST-success.svg?style=flat-square)](https://www.sust.edu/departments/geb)
 [![Role](https://img.shields.io/badge/Role-R%26D%20Project%20Manager-darkgreen.svg?style=flat-square)](https://dawnofbioinformatics.com)
 
-Source repository for the personal academic portfolio and research website of **Md Abu Sadat Soash**, hosted live at [soash.github.io](https://soash.github.io/).
-
 ---
 
 ## Overview
