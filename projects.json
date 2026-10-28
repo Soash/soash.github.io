@@ -35,7 +35,9 @@
     "badge": "Probe Design",
     "badgeColor": "dark",
     "link": "https://github.com/Soash/pyPLP",
-    "buttonText": "GitHub"
+    "buttonText": "GitHub",
+    "status": "Ongoing",
+    "statusColor": "warning text-dark"
   },
   {
     "title": "LFA-Analyzer: Interactive Computer Vision and Densitometry Suite for Lateral Flow Assay Quantification",
@@ -79,7 +81,9 @@
     "badge": "Metagenomics",
     "badgeColor": "dark",
     "link": "https://github.com/Soash/agarwood-induction-metagenomics",
-    "buttonText": "GitHub"
+    "buttonText": "GitHub",
+    "status": "Ongoing",
+    "statusColor": "warning text-dark"
   },
   {
     "title": "Remodeling of the Aloe vera Root Endosphere and Rhizosphere Microbiome Under Bacterial Soft-Rot Pathogenesis: Niche Stratification, Host Organelle Exclusion, and Biomarker Discovery",
