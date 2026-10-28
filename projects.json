@@ -26,6 +26,18 @@
     "abstract": "Dengue virus (DENV) infection is a major global public health challenge, causing seasonal epidemics with severe clinical complications such as Dengue Hemorrhagic Fever (DHF) and Dengue Shock Syndrome (DSS). Rapid and accurate clinical management demands early-stage diagnostic detection during the acute viremic phase. While reverse transcription quantitative polymerase chain reaction (RT-qPCR) represents the laboratory gold standard, its reliance on sophisticated thermal cycling hardware, uninterrupted electrical power, and centralized infrastructure severely limits point-of-care deployment in endemic, resource-limited regions.\n\nThis research initiative aims to design, optimize, and validate a rapid, instrument-free molecular diagnostic platform coupling Rolling Circle Amplification (RCA) with a Lateral Flow Assay (LFA) for the point-of-care detection of Dengue virus. By combining the single-nucleotide discrimination and exponential isothermal concatemer synthesis of padlock-probe-mediated RCA with the simplicity of paper-based capillary chromatography, the platform provides naked-eye visual diagnostic readouts within ambient temperature conditions."
   },
   {
+    "title": "pyPLP: An Automated Computational Framework for Padlock Probe Design, Biophysical Screening, and Multiplex Isothermal Diagnostic Assays",
+    "description": "",
+    "authors": "Md Abu Sadat Soash, Md. Mainul Hossain Bakul, Nahian Kabir Arpa",
+    "supervisor": "<a href=\"https://www.sust.edu/departments/geb/faculty/gcbiswas-geb@sust.edu\" target=\"_blank\" class=\"text-decoration-none\">Prof. Dr. Gokul Chandra Biswas</a>",
+    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+    "abstract": "Molecular point-of-care (PoC) diagnostics require ultra-high specificity and sensitivity without dependence on complex thermal cyclers. Padlock Probes (PLPs) coupled with Rolling Circle Amplification (RCA) offer single-nucleotide discrimination and exponential isothermal signal amplification, making them an ideal foundation for instrument-free diagnostic assays such as Lateral Flow Assays (LFA) and CRISPR Cas12a collateral cleavage biosensors.\n\nHowever, designing functional padlock probes presents major biophysical challenges: target invariance across hypervariable pathogen genomes, unimolecular secondary hairpins sequestering hybridizing arms, off-target cross-reactivity with host transcriptomes or co-circulating pathogens, and pairwise cross-dimers in multiplex panels. pyPLP is a high-throughput computational biology framework and automated pipeline engineered to resolve these challenges. It integrates multiple-sequence alignment (MAFFT), nearest-neighbor cation-dependent melting temperature thermodynamics, dual-engine secondary structure evaluation (ViennaRNA & DNA mfold), genome-wide NCBI BLAST+ specificity screening, automated CRISPR Cas12a VTTV PAM junction engineering, and Monte Carlo simulated annealing optimization to generate synthesis-ready, high-performance padlock probes for infectious disease diagnostics and spatial transcriptomics.",
+    "badge": "Probe Design",
+    "badgeColor": "dark",
+    "link": "https://github.com/Soash/pyPLP",
+    "buttonText": "GitHub"
+  },
+  {
     "title": "LFA-Analyzer: Interactive Computer Vision and Densitometry Suite for Lateral Flow Assay Quantification",
     "description": "",
     "authors": "Md Abu Sadat Soash",
@@ -37,71 +49,14 @@
     "buttonText": "GitHub"
   },
   {
-    "title": "Docking and Molecular Dynamics of the Natural Diterpenoid Dihydrotanshinone I in Human 15-PGDH Across Three Inhibitor-Bound Receptor Structures",
+    "title": "BMPPD: Bangladeshi Medicinal Plant Phytochemicals Database",
     "description": "",
-    "authors": "<a href=\"https://orcid.org/0009-0008-4020-2316\" target=\"_blank\" class=\"text-decoration-none\">Sabbir Ahmad Antor</a>, <a href=\"https://orcid.org/0009-0001-1116-2449\" target=\"_blank\" class=\"text-decoration-none\">Md Abu Sadat Soash</a>, Muktadir Al Mahmud, <a href=\"https://orcid.org/0009-0006-4907-4221\" target=\"_blank\" class=\"text-decoration-none\">Raphael Kabir Niloy</a>, <a href=\"https://orcid.org/0009-0003-2929-6271\" target=\"_blank\" class=\"text-decoration-none\">Md. Mainul Hossain Bakul</a>, <a href=\"https://orcid.org/0000-0001-9097-6426\" target=\"_blank\" class=\"text-decoration-none\">Gokul Chandra Biswas</a>",
-    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
-    "abstract": "15-hydroxyprostaglandin dehydrogenase (15-PGDH) is the enzyme that inactivates prostaglandin E2, and its inhibition raises prostaglandin E2 and rejuvenates aged skeletal muscle, which makes it an attractive target for age-related muscle decline. Although natural products are documented functional inhibitors of 15-PGDH, almost none has been characterized by structure-based docking, and the tanshinones of Salvia miltiorrhiza have not been examined against this enzyme. Here, dihydrotanshinone I, with panaxynol as a comparator, was docked into three experimentally determined 15-PGDH structures, the X-ray cocrystals 9PFL and 9PFM and the cryo-electron microscopy structure 8CVN, using a protocol validated for each receptor by redocking its own crystallographic inhibitor (heavy-atom RMSD 0.38 to 1.46 Å).\n\nDihydrotanshinone I docked favourably into the inhibitor pocket of all three structures, with best predicted docking affinities of −8.94 to −10.5 kcal/mol. In the X-ray structures, it formed a hydrogen bond with catalytic Ser138 and contacted Tyr151 and the lid-hinge residue Phe185, whereas in the cryo-electron microscopy structure it was anchored by Phe185 and Tyr217. Across fifteen independent random seeds the top pose was highly reproducible in every structure, with maximum pairwise RMSDs below 0.2 Å, confirming that it is the dominant docking solution and not a seed-dependent artefact. The precise orientation was only partly conserved across the ensemble, so a single rigid binding mode is not established by docking alone.\n\nTriplicate 100 ns molecular dynamics simulations of all three complexes, nine trajectories in total, showed that the compound remained in continuous contact with the protein throughout every run and retained its contacts with the inhibitor-site residues, that Phe185 is contacted in essentially every frame while Lys155 is contacted in none, and that the three docked poses remained largely distinct under receptor flexibility, with one 8CVN replica of nine relocating toward the 9PFL pose. These three results were unchanged when recomputed across equilibration discard windows of 0 to 50 ns. Together the docking and the simulations identify dihydrotanshinone I as a reproducible, mechanistically plausible natural-compound candidate for the 15-PGDH inhibitor pocket. Predicted binding is reported as an estimate of binding potential and not as proven enzyme inhibition.",
-    "badge": "Molecular Dynamics",
-    "badgeColor": "dark",
-    "link": "https://doi.org/10.21203/rs.3.rs-10719902/v1",
-    "buttonText": "Preprint",
-    "github": "https://github.com/Soash/dihydrotanshinone-15pgdh-dynamics"
-  },
-  {
-    "title": "Artificial Intelligence in Drug Discovery: Problems and Prospects - A Case Study in Predictive Modeling and Virtual Screening for Acetylcholinesterase Inhibition",
-    "description": "",
-    "authors": "Md Abu Sadat Soash, Sajib Mia",
-    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
-    "abstract": "Artificial intelligence (AI) is frequently described as transformative for drug discovery, yet recent critical appraisals note that its demonstrated clinical impact remains limited relative to the scale of investment and publication in the field. This study examines the problems and prospects of AI in drug discovery through a literature review combined with an original, fully reproducible case study targeting human acetylcholinesterase (AChE)—the biological target of every approved symptomatic Alzheimer's disease therapy.\n\nUsing bioactivity data extracted directly from the official ChEMBL release 37 SQLite database for human AChE (CHEMBL220), we built Random Forest models predicting inhibitory potency (pIC50, R² = 0.72, RMSE = 0.74) and active/inactive status (ROC-AUC = 0.966, Accuracy 91.3%) from 1024-bit Morgan circular fingerprints alone. Model validity was verified via 3-fold cross-validation and a rigorous 5-iteration Y-randomization control, which collapsed performance to chance level (R² ≈ -0.19, AUC ≈ 0.50) upon activity label shuffling, definitively ruling out data leakage and artificial inflation.\n\nInterpretability analysis revealed that the model independently rediscovered the canonical O–C(=O)–NH carbamate pharmacophore shared by clinically used AChE inhibitors (rivastigmine, neostigmine, and physostigmine) without prior biochemical supervision. The validated models were then applied to virtually screen 738,823 natural products from the COCONUT database within a defined applicability domain. The pipeline reliably recovered known benchmark inhibitors (donepezil, tacrine, and the physostigmine alkaloid family) while prioritizing a non-duplicate chemotype, 2-butyl-diazaspiro[4,4]non-1-en-4-ones (derived from the irbesartan core intermediate), independently corroborated by published in vitro Ellman enzymatic inhibition literature. Together, these results illustrate both the genuine computational prospects and the practical constraints—data curation burdens, applicability domains, and the essential distinction between rediscovery and true novelty—that characterize contemporary AI-driven drug discovery.",
-    "badge": "Cheminformatics",
-    "badgeColor": "dark",
-    "link": "https://github.com/Soash/ache-inhibitor-virtual-screening",
-    "buttonText": "GitHub"
-  },
-  {
-    "title": "Targeting High-Risk Macrophage Phenotypes in the Breast Cancer Microenvironment: A Single-Cell Transcriptomic and Drug Repurposing Analysis",
-    "description": "",
-    "authors": "Md Abu Sadat Soash, <a href=\"https://scholar.google.com/citations?user=7-s-GaIAAAAJ\" target=\"_blank\" class=\"text-decoration-none\">Raphael Kabir Niloy</a>",
-    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
-    "abstract": "The tumor microenvironment (TME) is a complex ecosystem where distinct cellular states dictate disease progression and therapeutic resistance. In this study, we performed a comprehensive single-cell transcriptomic dissection of the breast cancer TME using publicly available scRNA-seq data (12 paired samples across 6 patients; 98,410 high-quality cells). Unsupervised clustering identified 39 distinct cellular subpopulations. By applying the Single-Cell Phenotype-Associated Signatures (scPAS) risk-scoring algorithm mapped against TCGA-BRCA survival metrics, we discovered a highly immunosuppressive macrophage subpopulation that serves as a primary driver of high-risk clinical phenotypes.\n\nPathway enrichment analysis revealed that these scPAS+ macrophages are hyper-metabolic, relying heavily on Oxidative Phosphorylation (OXPHOS), and are actively engaged in antigen presentation, phagocytosis, and chemotaxis to orchestrate an immunosuppressive ecosystem. To identify therapeutic vulnerabilities, we deployed dual in silico drug repurposing pipelines (DrugReSC and ASGARD). These analyses consistently identified targeted kinase inhibitors (e.g., Dabrafenib, Vemurafenib, Imatinib, Pazopanib) and proteasome inhibitors (e.g., Ixazomib) as top candidates capable of reversing the high-risk transcriptomic signature. Our findings provide a robust computational framework for identifying and targeting prognostic macrophage states to improve breast cancer immunotherapy outcomes.",
-    "badge": "Transcriptomics",
-    "badgeColor": "dark",
-    "link": "https://github.com/Soash/BRCA-scRNA-Drug-Repurposing",
-    "buttonText": "GitHub"
-  },
-  {
-    "title": "scRNA-seq Guided In Silico Drug Repurposing Identifies Candidate Therapeutics for Hemorrhagic Fever with Renal Syndrome",
-    "description": "",
-    "authors": "Md Abu Sadat Soash",
-    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
-    "abstract": "Hemorrhagic Fever with Renal Syndrome lacks targeted FDA-approved therapeutics. This study aims to identify novel therapeutic candidates capable of reversing the pathogenic transcriptomic signatures of HFRS, specifically targeting the abnormal presence of Nucleated Red Blood Cells (NRBCs) and multilineage immune dysregulation.\n\nWe obtained peripheral blood mononuclear cell single-cell RNA sequencing (scRNA-seq) data from HFRS patients and healthy controls. Utilizing Seurat v5 for data integration and the ASGARD computational pipeline, we extracted differential expression profiles and queried them against the LINCS L1000 pharmacogenomic database.\n\nThe multi-cluster ASGARD pipeline successfully identified 13 statistically significant FDA-approved drug candidates. Vorinostat and Tretinoin emerged as the top-ranked candidates capable of rescuing immune hyper-inflammation and HFRS-induced erythroid maturation arrest.\n\nOur in silico framework successfully translates scRNA-seq pathogenesis data into actionable therapeutic targets, providing a strong rationale for immediate in vitro validation of Vorinostat and Tretinoin for HFRS treatment.",
-    "badge": "Transcriptomics",
-    "badgeColor": "dark",
-    "link": "https://github.com/Soash/HFRS-scRNA-Drug-Repurposing",
-    "buttonText": "GitHub"
-  },
-  {
-    "title": "Host Industrialization Drives Dietary-Dependent Structural Variation and Gene Shedding in the Human Gut Archaeon Methanobrevibacter smithii",
-    "description": "",
-    "authors": "Md Abu Sadat Soash",
-    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
-    "abstract": "Background: Methanobrevibacter smithii is the dominant archaeal keystone species in the human gut, playing a crucial role in syntrophic hydrogen removal. While bacterial responses to host industrialization and Westernized diets are well documented, the adaptive capacity of the gut archaeome remains largely unexplored due to an over-reliance on 16S rRNA amplicon sequencing.\n\nMethods: To investigate archaeal structural adaptation, we conducted a pan-metagenomic analysis of 219 high-quality M. smithii Metagenome-Assembled Genomes (MAGs) retrieved from the UHGG catalog. We stratified the genomes into an Industrialized cohort (US and UK; n=172) and a Non-Industrialized cohort (Peru, Fiji, Madagascar; n=47) to identify lifestyle-specific accessory gene biomarkers.\n\nResults: M. smithii possesses a highly open pangenome, with a massive cloud genome constituting 77.4% of its genetic repertoire. Statistical enrichment analysis revealed a striking pattern of diet-driven gene shedding. Industrialized strains exhibited a near-total loss of genes related to Vitamin B12 scavenging (BtuC/D) and Lysine biosynthesis, reflecting an adaptation to nutrient-dense Western diets. Conversely, industrialized strains showed significant enrichment in methanogenesis optimization genes, notably the polyferredoxin protein MvhB.\n\nConclusion: Our findings demonstrate that M. smithii is not a static monolithic entity but a highly dynamic symbiote. Its accessory genome is actively sculpted by host dietary history and localized ecological pressures, highlighting the necessity of strain-level structural analysis in understanding microbiome evolution.",
-    "badge": "Metagenomics",
-    "badgeColor": "dark",
-    "link": "https://github.com/Soash/m-smithii-lifestyle-pangenome",
-    "buttonText": "GitHub"
-  },
-  {
-    "title": "Environmental Resistome and Homogenization of Extremotolerant Communities in Jet Propulsion Laboratory Cleanroom Environments",
-    "description": "",
-    "authors": "Md Abu Sadat Soash",
-    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
-    "abstract": "Jet Propulsion Laboratory (JPL) cleanroom environments adhere to strict planetary protection protocols to minimize microbial bioburden, inadvertently creating selective pressures that drive the survival of extremotolerant, multidrug-resistant (MDR) microbes. This study maps the spatial distribution and ecological diversity of the environmental resistome within a JPL Mars Exploration Program cleanroom using short-read metagenomic sequencing data (OSD-944). Following the removal of mock community controls and normalization of sequencing depth to Coverage Per Million (CPM), the resistome was characterized against the KEGG and BacMet databases.\n\nSpatial analysis revealed the highest localized burdens of antimicrobial resistance (AMR) in human transition zones, specifically the floor by cabinets (1,211.6 CPM) and gowning rooms (1,066.5 CPM), while critical spacecraft assembly surfaces exhibited near-zero AMR loads. Despite these observational differences, statistical evaluations including Kruskal-Wallis (H = 8.5686, p = 0.285) and PERMANOVA (pseudo-F = 1.123, p = 0.321) indicated no significant spatial variance in total AMR burden or microbial community composition across the facility footprint. Taxonomic profiling identified primary carriers of resistance mechanisms as Acinetobacter, Brevundimonas, and Paracoccus species, alongside eukaryotic fungi such as Aspergillus. The detection of broad-spectrum efflux pumps, such as mexJK, and dual-resistance genes highlights a uniform, highly selected microbiome shaped by stringent sterilization protocols.",
-    "badge": "Metagenomics",
-    "badgeColor": "dark",
-    "link": "https://github.com/Soash/nasa-osd944-resistome-analysis",
-    "buttonText": "GitHub"
+    "authors": "<a href=\"https://scholar.google.com/citations?user=6z2lJD8AAAAJ\" target=\"_blank\" class=\"text-decoration-none\">Sk. Faisal Ahmed</a>, Amir Alve, Imranur Rahman, Abir Hossain, Shormila Akter Sumya, Md Shah Paran, Md Abu Sadat Soash, Md Raihan Ahmed, Esha Mony Bristy, Kaniz Fatema, Md Asif Siddque Jim, Zannatul Firdaus, Rafa Uddin, Md Tajul Islam, Taiyara Mahjabin, Md Ismail Hossain, Rakibul Hasan Alif, Md Aftabur Rahman, Rahat Moinul Islam, Foysal Ahmed, Mst. Marjeya, Mst. Afrin Mustari, Md Ashrarul Hasib, Md Sadique Hossain, Nishat Ulfat Nity, Md Foisal Imtiaz, Ovejan Paul Rudra, Asifuzzaman Zisan, Md Delwar Hossen, Tania Akter Nirjona, Prami Chowdhury Badhan",
+    "affiliation": "Dawn of Bioinformatics Limited, Dhaka, Bangladesh",
+    "abstract": "Natural products derived from medicinal flora represent a primary cornerstone of pharmacophore discovery and traditional healthcare systems. Despite Bangladesh's extensive botanical diversity and deep-rooted ethnopharmacological heritage, scientific exploration of these bioresources has historically suffered from fragmented literature, unstandardized vernacular taxonomies, and an absence of unified computational repositories.\n\nHere, we present the Bangladeshi Medicinal Plant Phytochemicals Database (BMPPD) (https://bmppd.org), the first comprehensive, peer-curated, web-accessible cheminformatics and ethnobotanical database devoted to the medicinal plants of Bangladesh. Developed over two years of rigorous literature synthesis at Dawnilab (the research hub of Dawn of Bioinformatics Limited, Dhaka, Bangladesh), BMPPD bridges ethnobotanical folk taxonomy with structured molecular cheminformatics.\n\nCurrently, the operational database indexes 341 verified botanical species, linked to 712 vernacular/common names, 31,717 curated plant–metabolite associations, 16,333 unique phytochemical entities, and 10,302 cross-referenced PubChem Compound Identifiers (CIDs), with a cumulative data pipeline encompassing upwards of 700 medicinal taxa and >113,000 phytochemical entries. Equipped with multi-tiered querying (scientific nomenclature, vernacular designations, compound designations, and PubChem CIDs), automated literature provenance tracing, and an interactive crowdsourced plant request tracking mechanism, BMPPD provides an open, high-performance foundation for secondary metabolite exploration, virtual screening, network pharmacology, and rational drug discovery.",
+    "link": "https://bmppd.org/",
+    "buttonText": "Database",
+    "github": "https://github.com/Soash/DOB-BD-Plant-Phytochemicals-DB"
   },
   {
     "title": "Shotgun Metagenomic Dissection of the Aquilaria malaccensis Microbiome: Fungal Community Dynamics, CAZyme Architectures, and Predictive Modeling of Agarwood Induction",
@@ -127,6 +82,29 @@
     "buttonText": "GitHub"
   },
   {
+    "title": "Docking and Molecular Dynamics of the Natural Diterpenoid Dihydrotanshinone I in Human 15-PGDH Across Three Inhibitor-Bound Receptor Structures",
+    "description": "",
+    "authors": "<a href=\"https://orcid.org/0009-0008-4020-2316\" target=\"_blank\" class=\"text-decoration-none\">Sabbir Ahmad Antor</a>, <a href=\"https://orcid.org/0009-0001-1116-2449\" target=\"_blank\" class=\"text-decoration-none\">Md Abu Sadat Soash</a>, Muktadir Al Mahmud, <a href=\"https://orcid.org/0009-0006-4907-4221\" target=\"_blank\" class=\"text-decoration-none\">Raphael Kabir Niloy</a>, <a href=\"https://orcid.org/0009-0003-2929-6271\" target=\"_blank\" class=\"text-decoration-none\">Md. Mainul Hossain Bakul</a>, <a href=\"https://orcid.org/0000-0001-9097-6426\" target=\"_blank\" class=\"text-decoration-none\">Gokul Chandra Biswas</a>",
+    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+    "abstract": "15-hydroxyprostaglandin dehydrogenase (15-PGDH) is the enzyme that inactivates prostaglandin E2, and its inhibition raises prostaglandin E2 and rejuvenates aged skeletal muscle, which makes it an attractive target for age-related muscle decline. Although natural products are documented functional inhibitors of 15-PGDH, almost none has been characterized by structure-based docking, and the tanshinones of Salvia miltiorrhiza have not been examined against this enzyme. Here, dihydrotanshinone I, with panaxynol as a comparator, was docked into three experimentally determined 15-PGDH structures, the X-ray cocrystals 9PFL and 9PFM and the cryo-electron microscopy structure 8CVN, using a protocol validated for each receptor by redocking its own crystallographic inhibitor (heavy-atom RMSD 0.38 to 1.46 Å).\n\nDihydrotanshinone I docked favourably into the inhibitor pocket of all three structures, with best predicted docking affinities of −8.94 to −10.5 kcal/mol. In the X-ray structures, it formed a hydrogen bond with catalytic Ser138 and contacted Tyr151 and the lid-hinge residue Phe185, whereas in the cryo-electron microscopy structure it was anchored by Phe185 and Tyr217. Across fifteen independent random seeds the top pose was highly reproducible in every structure, with maximum pairwise RMSDs below 0.2 Å, confirming that it is the dominant docking solution and not a seed-dependent artefact. The precise orientation was only partly conserved across the ensemble, so a single rigid binding mode is not established by docking alone.\n\nTriplicate 100 ns molecular dynamics simulations of all three complexes, nine trajectories in total, showed that the compound remained in continuous contact with the protein throughout every run and retained its contacts with the inhibitor-site residues, that Phe185 is contacted in essentially every frame while Lys155 is contacted in none, and that the three docked poses remained largely distinct under receptor flexibility, with one 8CVN replica of nine relocating toward the 9PFL pose. These three results were unchanged when recomputed across equilibration discard windows of 0 to 50 ns. Together the docking and the simulations identify dihydrotanshinone I as a reproducible, mechanistically plausible natural-compound candidate for the 15-PGDH inhibitor pocket. Predicted binding is reported as an estimate of binding potential and not as proven enzyme inhibition.",
+    "badge": "Molecular Dynamics",
+    "badgeColor": "dark",
+    "link": "https://doi.org/10.21203/rs.3.rs-10719902/v1",
+    "buttonText": "Preprint",
+    "github": "https://github.com/Soash/dihydrotanshinone-15pgdh-dynamics"
+  },
+  {
+    "title": "scRNA-seq Guided In Silico Drug Repurposing Identifies Candidate Therapeutics for Hemorrhagic Fever with Renal Syndrome",
+    "description": "",
+    "authors": "Md Abu Sadat Soash",
+    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+    "abstract": "Hemorrhagic Fever with Renal Syndrome lacks targeted FDA-approved therapeutics. This study aims to identify novel therapeutic candidates capable of reversing the pathogenic transcriptomic signatures of HFRS, specifically targeting the abnormal presence of Nucleated Red Blood Cells (NRBCs) and multilineage immune dysregulation.\n\nWe obtained peripheral blood mononuclear cell single-cell RNA sequencing (scRNA-seq) data from HFRS patients and healthy controls. Utilizing Seurat v5 for data integration and the ASGARD computational pipeline, we extracted differential expression profiles and queried them against the LINCS L1000 pharmacogenomic database.\n\nThe multi-cluster ASGARD pipeline successfully identified 13 statistically significant FDA-approved drug candidates. Vorinostat and Tretinoin emerged as the top-ranked candidates capable of rescuing immune hyper-inflammation and HFRS-induced erythroid maturation arrest.\n\nOur in silico framework successfully translates scRNA-seq pathogenesis data into actionable therapeutic targets, providing a strong rationale for immediate in vitro validation of Vorinostat and Tretinoin for HFRS treatment.",
+    "badge": "Transcriptomics",
+    "badgeColor": "dark",
+    "link": "https://github.com/Soash/HFRS-scRNA-Drug-Repurposing",
+    "buttonText": "GitHub"
+  },
+  {
     "title": "Comparative Pan-Genomic and Functional Analysis of Shigella Bacteriophages Reveals a Fragmented, Genome Size-Linked Population Structure",
     "description": "",
     "authors": "Md Abu Sadat Soash",
@@ -135,6 +113,72 @@
     "badge": "Pangenomics",
     "badgeColor": "dark",
     "link": "https://github.com/Soash/shigella-phage-pangenome",
+    "buttonText": "GitHub"
+  },
+  {
+    "title": "PanDruVacI: Pangenome-Guided Subtractive Genomics, Metabolic Choke-Point, and Interactome Network Biology Suite for Antibacterial Drug & Vaccine Target Prioritization",
+    "description": "",
+    "authors": "Md Abu Sadat Soash",
+    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+    "abstract": "The global emergence of multi-drug resistant (MDR) and extensively drug-resistant (XDR) bacterial pathogens poses an existential threat to modern healthcare. Classical antimicrobial drug discovery pipelines suffer from catastrophic late-stage clinical attrition due to single-strain target selection, mechanism-based human cytotoxicity, broad-spectrum dysbiosis of protective gut flora, and metabolic pathway redundancy.\n\nPanDruVacI (Pangenome-guided Drug & Vaccine Identification) is an automated, end-to-end computational biology suite designed to overcome these limitations. Orchestrated by the Snakemake workflow engine and auto-tuned across up to 32 parallel CPU cores, PanDruVacI integrates: whole-pangenome core-conservation clustering via MMseqs2; tripartite subtractive genomics against the human reference proteome, Database of Essential Genes (DEG 10.0), and 155,211 human gut metagenomes (HRGM2 2026); dual-modality biophysical subcellular localization segregating soluble intracellular enzymes (<=1 TMH) for small-molecule inhibition and surface-exposed outer membrane proteins for reverse vaccinology; pathogenicity and resistome annotation (VFDB, CARD, TTD 2026); bipartite stoichiometric metabolic choke-point modeling excluding ubiquitous currency cofactors; and STRING v12 whole-proteome interactome centrality modeling using Brandes betweenness centrality and the Centrality-Lethality rule to prioritize master hub-bottleneck therapeutic targets.",
+    "badge": "Subtractive Genomics",
+    "badgeColor": "dark",
+    "link": "https://github.com/Soash/pandruvaci",
+    "buttonText": "GitHub"
+  },
+  {
+    "title": "Targeting High-Risk Macrophage Phenotypes in the Breast Cancer Microenvironment: A Single-Cell Transcriptomic and Drug Repurposing Analysis",
+    "description": "",
+    "authors": "Md Abu Sadat Soash, <a href=\"https://scholar.google.com/citations?user=7-s-GaIAAAAJ\" target=\"_blank\" class=\"text-decoration-none\">Raphael Kabir Niloy</a>",
+    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+    "abstract": "The tumor microenvironment (TME) is a complex ecosystem where distinct cellular states dictate disease progression and therapeutic resistance. In this study, we performed a comprehensive single-cell transcriptomic dissection of the breast cancer TME using publicly available scRNA-seq data (12 paired samples across 6 patients; 98,410 high-quality cells). Unsupervised clustering identified 39 distinct cellular subpopulations. By applying the Single-Cell Phenotype-Associated Signatures (scPAS) risk-scoring algorithm mapped against TCGA-BRCA survival metrics, we discovered a highly immunosuppressive macrophage subpopulation that serves as a primary driver of high-risk clinical phenotypes.\n\nPathway enrichment analysis revealed that these scPAS+ macrophages are hyper-metabolic, relying heavily on Oxidative Phosphorylation (OXPHOS), and are actively engaged in antigen presentation, phagocytosis, and chemotaxis to orchestrate an immunosuppressive ecosystem. To identify therapeutic vulnerabilities, we deployed dual in silico drug repurposing pipelines (DrugReSC and ASGARD). These analyses consistently identified targeted kinase inhibitors (e.g., Dabrafenib, Vemurafenib, Imatinib, Pazopanib) and proteasome inhibitors (e.g., Ixazomib) as top candidates capable of reversing the high-risk transcriptomic signature. Our findings provide a robust computational framework for identifying and targeting prognostic macrophage states to improve breast cancer immunotherapy outcomes.",
+    "badge": "Transcriptomics",
+    "badgeColor": "dark",
+    "link": "https://github.com/Soash/BRCA-scRNA-Drug-Repurposing",
+    "buttonText": "GitHub"
+  },
+  {
+    "title": "Artificial Intelligence in Drug Discovery: Problems and Prospects - A Case Study in Predictive Modeling and Virtual Screening for Acetylcholinesterase Inhibition",
+    "description": "",
+    "authors": "Md Abu Sadat Soash, Sajib Mia",
+    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+    "abstract": "Artificial intelligence (AI) is frequently described as transformative for drug discovery, yet recent critical appraisals note that its demonstrated clinical impact remains limited relative to the scale of investment and publication in the field. This study examines the problems and prospects of AI in drug discovery through a literature review combined with an original, fully reproducible case study targeting human acetylcholinesterase (AChE)—the biological target of every approved symptomatic Alzheimer's disease therapy.\n\nUsing bioactivity data extracted directly from the official ChEMBL release 37 SQLite database for human AChE (CHEMBL220), we built Random Forest models predicting inhibitory potency (pIC50, R² = 0.72, RMSE = 0.74) and active/inactive status (ROC-AUC = 0.966, Accuracy 91.3%) from 1024-bit Morgan circular fingerprints alone. Model validity was verified via 3-fold cross-validation and a rigorous 5-iteration Y-randomization control, which collapsed performance to chance level (R² ≈ -0.19, AUC ≈ 0.50) upon activity label shuffling, definitively ruling out data leakage and artificial inflation.\n\nInterpretability analysis revealed that the model independently rediscovered the canonical O–C(=O)–NH carbamate pharmacophore shared by clinically used AChE inhibitors (rivastigmine, neostigmine, and physostigmine) without prior biochemical supervision. The validated models were then applied to virtually screen 738,823 natural products from the COCONUT database within a defined applicability domain. The pipeline reliably recovered known benchmark inhibitors (donepezil, tacrine, and the physostigmine alkaloid family) while prioritizing a non-duplicate chemotype, 2-butyl-diazaspiro[4,4]non-1-en-4-ones (derived from the irbesartan core intermediate), independently corroborated by published in vitro Ellman enzymatic inhibition literature. Together, these results illustrate both the genuine computational prospects and the practical constraints—data curation burdens, applicability domains, and the essential distinction between rediscovery and true novelty—that characterize contemporary AI-driven drug discovery.",
+    "badge": "Cheminformatics",
+    "badgeColor": "dark",
+    "link": "https://github.com/Soash/ache-inhibitor-virtual-screening",
+    "buttonText": "GitHub"
+  },
+  {
+    "title": "In Silico Mining of Antimicrobial Peptide Candidates from the Immune Proteome of Labeo rohita Reveals a Cryptic Transferrin-Derived Peptide",
+    "description": "",
+    "authors": "Md Abu Sadat Soash",
+    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+    "abstract": "Antimicrobial peptides (AMPs) are short, amphipathic molecules occurring in innate immune systems that destabilize microbial membranes and modulate host immune responses. Increasingly, active AMPs are identified as cryptic peptides encrypted within larger functional host proteins. In South Asian aquaculture, the escalating crisis of antimicrobial resistance (AMR) severely compromises production of Labeo rohita (rohu), yet host-derived AMPs remain largely unexplored in this high-value aquaculture species. This study systematically discovers and characterizes candidate AMP sequences encrypted within the immune proteome of Labeo rohita.\n\nThe reference proteome for Labeo rohita strain BAU-BD-2019 was filtered for immune-annotated proteins (n = 606). An exhaustive sliding-window fragmentation algorithm generated 10,049,499 unique 15-50 amino acid subsequences. The library was screened using Macrel, a 22-descriptor random forest classifier, across 28 parallel threads. Filtering for high confidence (probability >= 0.90) and predicted non-hemolytic safety identified 9 high-confidence hits collapsing into four candidate regions. The single most physiologically viable candidate is a 40-residue cationic, disulfide-stabilized peptide derived from serotransferrin (net charge +4.0, amphiphilic index 0.86, AMP probability 0.901). Canonical basic protease cleavage sites flank the peptide, and sequence homology identified validated antimicrobial homologs (sOT2 and cOT2) sharing the conserved KSCHTGL active motif. This discovered cryptic peptide constitutes a high-priority lead for formulation of species-relevant antimicrobials in sustainable aquaculture.",
+    "badge": "Peptide Mining",
+    "badgeColor": "dark",
+    "link": "https://github.com/Soash/labeo-rohita-amps",
+    "buttonText": "GitHub"
+  },
+  {
+    "title": "Host Industrialization Drives Dietary-Dependent Structural Variation and Gene Shedding in the Human Gut Archaeon Methanobrevibacter smithii",
+    "description": "",
+    "authors": "Md Abu Sadat Soash",
+    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+    "abstract": "Background: Methanobrevibacter smithii is the dominant archaeal keystone species in the human gut, playing a crucial role in syntrophic hydrogen removal. While bacterial responses to host industrialization and Westernized diets are well documented, the adaptive capacity of the gut archaeome remains largely unexplored due to an over-reliance on 16S rRNA amplicon sequencing.\n\nMethods: To investigate archaeal structural adaptation, we conducted a pan-metagenomic analysis of 219 high-quality M. smithii Metagenome-Assembled Genomes (MAGs) retrieved from the UHGG catalog. We stratified the genomes into an Industrialized cohort (US and UK; n=172) and a Non-Industrialized cohort (Peru, Fiji, Madagascar; n=47) to identify lifestyle-specific accessory gene biomarkers.\n\nResults: M. smithii possesses a highly open pangenome, with a massive cloud genome constituting 77.4% of its genetic repertoire. Statistical enrichment analysis revealed a striking pattern of diet-driven gene shedding. Industrialized strains exhibited a near-total loss of genes related to Vitamin B12 scavenging (BtuC/D) and Lysine biosynthesis, reflecting an adaptation to nutrient-dense Western diets. Conversely, industrialized strains showed significant enrichment in methanogenesis optimization genes, notably the polyferredoxin protein MvhB.\n\nConclusion: Our findings demonstrate that M. smithii is not a static monolithic entity but a highly dynamic symbiote. Its accessory genome is actively sculpted by host dietary history and localized ecological pressures, highlighting the necessity of strain-level structural analysis in understanding microbiome evolution.",
+    "badge": "Metagenomics",
+    "badgeColor": "dark",
+    "link": "https://github.com/Soash/m-smithii-lifestyle-pangenome",
+    "buttonText": "GitHub"
+  },
+  {
+    "title": "Environmental Resistome and Homogenization of Extremotolerant Communities in Jet Propulsion Laboratory Cleanroom Environments",
+    "description": "",
+    "authors": "Md Abu Sadat Soash",
+    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+    "abstract": "Jet Propulsion Laboratory (JPL) cleanroom environments adhere to strict planetary protection protocols to minimize microbial bioburden, inadvertently creating selective pressures that drive the survival of extremotolerant, multidrug-resistant (MDR) microbes. This study maps the spatial distribution and ecological diversity of the environmental resistome within a JPL Mars Exploration Program cleanroom using short-read metagenomic sequencing data (OSD-944). Following the removal of mock community controls and normalization of sequencing depth to Coverage Per Million (CPM), the resistome was characterized against the KEGG and BacMet databases.\n\nSpatial analysis revealed the highest localized burdens of antimicrobial resistance (AMR) in human transition zones, specifically the floor by cabinets (1,211.6 CPM) and gowning rooms (1,066.5 CPM), while critical spacecraft assembly surfaces exhibited near-zero AMR loads. Despite these observational differences, statistical evaluations including Kruskal-Wallis (H = 8.5686, p = 0.285) and PERMANOVA (pseudo-F = 1.123, p = 0.321) indicated no significant spatial variance in total AMR burden or microbial community composition across the facility footprint. Taxonomic profiling identified primary carriers of resistance mechanisms as Acinetobacter, Brevundimonas, and Paracoccus species, alongside eukaryotic fungi such as Aspergillus. The detection of broad-spectrum efflux pumps, such as mexJK, and dual-resistance genes highlights a uniform, highly selected microbiome shaped by stringent sterilization protocols.",
+    "badge": "Metagenomics",
+    "badgeColor": "dark",
+    "link": "https://github.com/Soash/nasa-osd944-resistome-analysis",
     "buttonText": "GitHub"
   },
   {
@@ -147,16 +191,6 @@
     "badgeColor": "dark",
     "link": "https://github.com/Soash/salmonella-mqsa-annotation",
     "buttonText": "GitHub"
-  },
-  {
-    "title": "BMPPD: Bangladeshi Medicinal Plant Phytochemicals Database",
-    "description": "",
-    "authors": "<a href=\"https://scholar.google.com/citations?user=6z2lJD8AAAAJ\" target=\"_blank\" class=\"text-decoration-none\">Sk. Faisal Ahmed</a>, Amir Alve, Imranur Rahman, Abir Hossain, Shormila Akter Sumya, Md Shah Paran, Md Abu Sadat Soash, Md Raihan Ahmed, Esha Mony Bristy, Kaniz Fatema, Md Asif Siddque Jim, Zannatul Firdaus, Rafa Uddin, Md Tajul Islam, Taiyara Mahjabin, Md Ismail Hossain, Rakibul Hasan Alif, Md Aftabur Rahman, Rahat Moinul Islam, Foysal Ahmed, Mst. Marjeya, Mst. Afrin Mustari, Md Ashrarul Hasib, Md Sadique Hossain, Nishat Ulfat Nity, Md Foisal Imtiaz, Ovejan Paul Rudra, Asifuzzaman Zisan, Md Delwar Hossen, Tania Akter Nirjona, Prami Chowdhury Badhan",
-    "affiliation": "Dawn of Bioinformatics Limited, Dhaka, Bangladesh",
-    "abstract": "Natural products derived from medicinal flora represent a primary cornerstone of pharmacophore discovery and traditional healthcare systems. Despite Bangladesh's extensive botanical diversity and deep-rooted ethnopharmacological heritage, scientific exploration of these bioresources has historically suffered from fragmented literature, unstandardized vernacular taxonomies, and an absence of unified computational repositories.\n\nHere, we present the Bangladeshi Medicinal Plant Phytochemicals Database (BMPPD) (https://bmppd.org), the first comprehensive, peer-curated, web-accessible cheminformatics and ethnobotanical database devoted to the medicinal plants of Bangladesh. Developed over two years of rigorous literature synthesis at Dawnilab (the research hub of Dawn of Bioinformatics Limited, Dhaka, Bangladesh), BMPPD bridges ethnobotanical folk taxonomy with structured molecular cheminformatics.\n\nCurrently, the operational database indexes 341 verified botanical species, linked to 712 vernacular/common names, 31,717 curated plant–metabolite associations, 16,333 unique phytochemical entities, and 10,302 cross-referenced PubChem Compound Identifiers (CIDs), with a cumulative data pipeline encompassing upwards of 700 medicinal taxa and >113,000 phytochemical entries. Equipped with multi-tiered querying (scientific nomenclature, vernacular designations, compound designations, and PubChem CIDs), automated literature provenance tracing, and an interactive crowdsourced plant request tracking mechanism, BMPPD provides an open, high-performance foundation for secondary metabolite exploration, virtual screening, network pharmacology, and rational drug discovery.",
-    "link": "https://bmppd.org/",
-    "buttonText": "Database",
-    "github": "https://github.com/Soash/DOB-BD-Plant-Phytochemicals-DB"
   },
   {
     "title": "PhageBiomeLab: Phage Bank Initiative in Bangladesh",
@@ -179,40 +213,6 @@
     "badge": "Case Study",
     "badgeColor": "dark",
     "link": "https://github.com/Soash/clubfoot-case-study-bd",
-    "buttonText": "GitHub"
-  },
-  {
-    "title": "pyPLP: An Automated Computational Framework for Padlock Probe Design, Biophysical Screening, and Multiplex Isothermal Diagnostic Assays",
-    "description": "",
-    "authors": "Md Abu Sadat Soash, Md. Mainul Hossain Bakul, Nahian Kabir Arpa",
-    "supervisor": "<a href=\"https://www.sust.edu/departments/geb/faculty/gcbiswas-geb@sust.edu\" target=\"_blank\" class=\"text-decoration-none\">Prof. Dr. Gokul Chandra Biswas</a>",
-    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
-    "abstract": "Molecular point-of-care (PoC) diagnostics require ultra-high specificity and sensitivity without dependence on complex thermal cyclers. Padlock Probes (PLPs) coupled with Rolling Circle Amplification (RCA) offer single-nucleotide discrimination and exponential isothermal signal amplification, making them an ideal foundation for instrument-free diagnostic assays such as Lateral Flow Assays (LFA) and CRISPR Cas12a collateral cleavage biosensors.\n\nHowever, designing functional padlock probes presents major biophysical challenges: target invariance across hypervariable pathogen genomes, unimolecular secondary hairpins sequestering hybridizing arms, off-target cross-reactivity with host transcriptomes or co-circulating pathogens, and pairwise cross-dimers in multiplex panels. pyPLP is a high-throughput computational biology framework and automated pipeline engineered to resolve these challenges. It integrates multiple-sequence alignment (MAFFT), nearest-neighbor cation-dependent melting temperature thermodynamics, dual-engine secondary structure evaluation (ViennaRNA & DNA mfold), genome-wide NCBI BLAST+ specificity screening, automated CRISPR Cas12a VTTV PAM junction engineering, and Monte Carlo simulated annealing optimization to generate synthesis-ready, high-performance padlock probes for infectious disease diagnostics and spatial transcriptomics.",
-    "badge": "Probe Design",
-    "badgeColor": "dark",
-    "link": "https://github.com/Soash/pyPLP",
-    "buttonText": "GitHub"
-  },
-  {
-    "title": "PanDruVacI: Pangenome-Guided Subtractive Genomics, Metabolic Choke-Point, and Interactome Network Biology Suite for Antibacterial Drug & Vaccine Target Prioritization",
-    "description": "",
-    "authors": "Md Abu Sadat Soash",
-    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
-    "abstract": "The global emergence of multi-drug resistant (MDR) and extensively drug-resistant (XDR) bacterial pathogens poses an existential threat to modern healthcare. Classical antimicrobial drug discovery pipelines suffer from catastrophic late-stage clinical attrition due to single-strain target selection, mechanism-based human cytotoxicity, broad-spectrum dysbiosis of protective gut flora, and metabolic pathway redundancy.\n\nPanDruVacI (Pangenome-guided Drug & Vaccine Identification) is an automated, end-to-end computational biology suite designed to overcome these limitations. Orchestrated by the Snakemake workflow engine and auto-tuned across up to 32 parallel CPU cores, PanDruVacI integrates: whole-pangenome core-conservation clustering via MMseqs2; tripartite subtractive genomics against the human reference proteome, Database of Essential Genes (DEG 10.0), and 155,211 human gut metagenomes (HRGM2 2026); dual-modality biophysical subcellular localization segregating soluble intracellular enzymes (<=1 TMH) for small-molecule inhibition and surface-exposed outer membrane proteins for reverse vaccinology; pathogenicity and resistome annotation (VFDB, CARD, TTD 2026); bipartite stoichiometric metabolic choke-point modeling excluding ubiquitous currency cofactors; and STRING v12 whole-proteome interactome centrality modeling using Brandes betweenness centrality and the Centrality-Lethality rule to prioritize master hub-bottleneck therapeutic targets.",
-    "badge": "Subtractive Genomics",
-    "badgeColor": "dark",
-    "link": "https://github.com/Soash/pandruvaci",
-    "buttonText": "GitHub"
-  },
-  {
-    "title": "In Silico Mining of Antimicrobial Peptide Candidates from the Immune Proteome of Labeo rohita Reveals a Cryptic Transferrin-Derived Peptide",
-    "description": "",
-    "authors": "Md Abu Sadat Soash",
-    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
-    "abstract": "Antimicrobial peptides (AMPs) are short, amphipathic molecules occurring in innate immune systems that destabilize microbial membranes and modulate host immune responses. Increasingly, active AMPs are identified as cryptic peptides encrypted within larger functional host proteins. In South Asian aquaculture, the escalating crisis of antimicrobial resistance (AMR) severely compromises production of Labeo rohita (rohu), yet host-derived AMPs remain largely unexplored in this high-value aquaculture species. This study systematically discovers and characterizes candidate AMP sequences encrypted within the immune proteome of Labeo rohita.\n\nThe reference proteome for Labeo rohita strain BAU-BD-2019 was filtered for immune-annotated proteins (n = 606). An exhaustive sliding-window fragmentation algorithm generated 10,049,499 unique 15-50 amino acid subsequences. The library was screened using Macrel, a 22-descriptor random forest classifier, across 28 parallel threads. Filtering for high confidence (probability >= 0.90) and predicted non-hemolytic safety identified 9 high-confidence hits collapsing into four candidate regions. The single most physiologically viable candidate is a 40-residue cationic, disulfide-stabilized peptide derived from serotransferrin (net charge +4.0, amphiphilic index 0.86, AMP probability 0.901). Canonical basic protease cleavage sites flank the peptide, and sequence homology identified validated antimicrobial homologs (sOT2 and cOT2) sharing the conserved KSCHTGL active motif. This discovered cryptic peptide constitutes a high-priority lead for formulation of species-relevant antimicrobials in sustainable aquaculture.",
-    "badge": "Peptide Mining",
-    "badgeColor": "dark",
-    "link": "https://github.com/Soash/labeo-rohita-amps",
     "buttonText": "GitHub"
   }
 ]
