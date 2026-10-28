@@ -22,7 +22,8 @@
     "status": "Ongoing",
     "statusColor": "warning text-dark",
     "link": "https://github.com/Soash/RCA-DENV-detection",
-    "buttonText": "GitHub"
+    "buttonText": "GitHub",
+    "abstract": "Dengue virus (DENV) infection is a major global public health challenge, causing seasonal epidemics with severe clinical complications such as Dengue Hemorrhagic Fever (DHF) and Dengue Shock Syndrome (DSS). Rapid and accurate clinical management demands early-stage diagnostic detection during the acute viremic phase. While reverse transcription quantitative polymerase chain reaction (RT-qPCR) represents the laboratory gold standard, its reliance on sophisticated thermal cycling hardware, uninterrupted electrical power, and centralized infrastructure severely limits point-of-care deployment in endemic, resource-limited regions.\n\nThis research initiative aims to design, optimize, and validate a rapid, instrument-free molecular diagnostic platform coupling Rolling Circle Amplification (RCA) with a Lateral Flow Assay (LFA) for the point-of-care detection of Dengue virus. By combining the single-nucleotide discrimination and exponential isothermal concatemer synthesis of padlock-probe-mediated RCA with the simplicity of paper-based capillary chromatography, the platform provides naked-eye visual diagnostic readouts within ambient temperature conditions."
   },
   {
     "title": "LFA-Analyzer: Interactive Computer Vision and Densitometry Suite for Lateral Flow Assay Quantification",
@@ -44,7 +45,8 @@
     "badge": "Molecular Dynamics",
     "badgeColor": "dark",
     "link": "https://doi.org/10.21203/rs.3.rs-10719902/v1",
-    "buttonText": "Preprint"
+    "buttonText": "Preprint",
+    "github": "https://github.com/Soash/dihydrotanshinone-15pgdh-dynamics"
   },
   {
     "title": "Artificial Intelligence in Drug Discovery: Problems and Prospects - A Case Study in Predictive Modeling and Virtual Screening for Acetylcholinesterase Inhibition",
@@ -177,6 +179,40 @@
     "badge": "Case Study",
     "badgeColor": "dark",
     "link": "https://github.com/Soash/clubfoot-case-study-bd",
+    "buttonText": "GitHub"
+  },
+  {
+    "title": "pyPLP: An Automated Computational Framework for Padlock Probe Design, Biophysical Screening, and Multiplex Isothermal Diagnostic Assays",
+    "description": "",
+    "authors": "Md Abu Sadat Soash, Md. Mainul Hossain Bakul, Nahian Kabir Arpa",
+    "supervisor": "<a href=\"https://www.sust.edu/departments/geb/faculty/gcbiswas-geb@sust.edu\" target=\"_blank\" class=\"text-decoration-none\">Prof. Dr. Gokul Chandra Biswas</a>",
+    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+    "abstract": "Molecular point-of-care (PoC) diagnostics require ultra-high specificity and sensitivity without dependence on complex thermal cyclers. Padlock Probes (PLPs) coupled with Rolling Circle Amplification (RCA) offer single-nucleotide discrimination and exponential isothermal signal amplification, making them an ideal foundation for instrument-free diagnostic assays such as Lateral Flow Assays (LFA) and CRISPR Cas12a collateral cleavage biosensors.\n\nHowever, designing functional padlock probes presents major biophysical challenges: target invariance across hypervariable pathogen genomes, unimolecular secondary hairpins sequestering hybridizing arms, off-target cross-reactivity with host transcriptomes or co-circulating pathogens, and pairwise cross-dimers in multiplex panels. pyPLP is a high-throughput computational biology framework and automated pipeline engineered to resolve these challenges. It integrates multiple-sequence alignment (MAFFT), nearest-neighbor cation-dependent melting temperature thermodynamics, dual-engine secondary structure evaluation (ViennaRNA & DNA mfold), genome-wide NCBI BLAST+ specificity screening, automated CRISPR Cas12a VTTV PAM junction engineering, and Monte Carlo simulated annealing optimization to generate synthesis-ready, high-performance padlock probes for infectious disease diagnostics and spatial transcriptomics.",
+    "badge": "Probe Design",
+    "badgeColor": "dark",
+    "link": "https://github.com/Soash/pyPLP",
+    "buttonText": "GitHub"
+  },
+  {
+    "title": "PanDruVacI: Pangenome-Guided Subtractive Genomics, Metabolic Choke-Point, and Interactome Network Biology Suite for Antibacterial Drug & Vaccine Target Prioritization",
+    "description": "",
+    "authors": "Md Abu Sadat Soash",
+    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+    "abstract": "The global emergence of multi-drug resistant (MDR) and extensively drug-resistant (XDR) bacterial pathogens poses an existential threat to modern healthcare. Classical antimicrobial drug discovery pipelines suffer from catastrophic late-stage clinical attrition due to single-strain target selection, mechanism-based human cytotoxicity, broad-spectrum dysbiosis of protective gut flora, and metabolic pathway redundancy.\n\nPanDruVacI (Pangenome-guided Drug & Vaccine Identification) is an automated, end-to-end computational biology suite designed to overcome these limitations. Orchestrated by the Snakemake workflow engine and auto-tuned across up to 32 parallel CPU cores, PanDruVacI integrates: whole-pangenome core-conservation clustering via MMseqs2; tripartite subtractive genomics against the human reference proteome, Database of Essential Genes (DEG 10.0), and 155,211 human gut metagenomes (HRGM2 2026); dual-modality biophysical subcellular localization segregating soluble intracellular enzymes (<=1 TMH) for small-molecule inhibition and surface-exposed outer membrane proteins for reverse vaccinology; pathogenicity and resistome annotation (VFDB, CARD, TTD 2026); bipartite stoichiometric metabolic choke-point modeling excluding ubiquitous currency cofactors; and STRING v12 whole-proteome interactome centrality modeling using Brandes betweenness centrality and the Centrality-Lethality rule to prioritize master hub-bottleneck therapeutic targets.",
+    "badge": "Subtractive Genomics",
+    "badgeColor": "dark",
+    "link": "https://github.com/Soash/pandruvaci",
+    "buttonText": "GitHub"
+  },
+  {
+    "title": "In Silico Mining of Antimicrobial Peptide Candidates from the Immune Proteome of Labeo rohita Reveals a Cryptic Transferrin-Derived Peptide",
+    "description": "",
+    "authors": "Md Abu Sadat Soash",
+    "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
+    "abstract": "Antimicrobial peptides (AMPs) are short, amphipathic molecules occurring in innate immune systems that destabilize microbial membranes and modulate host immune responses. Increasingly, active AMPs are identified as cryptic peptides encrypted within larger functional host proteins. In South Asian aquaculture, the escalating crisis of antimicrobial resistance (AMR) severely compromises production of Labeo rohita (rohu), yet host-derived AMPs remain largely unexplored in this high-value aquaculture species. This study systematically discovers and characterizes candidate AMP sequences encrypted within the immune proteome of Labeo rohita.\n\nThe reference proteome for Labeo rohita strain BAU-BD-2019 was filtered for immune-annotated proteins (n = 606). An exhaustive sliding-window fragmentation algorithm generated 10,049,499 unique 15-50 amino acid subsequences. The library was screened using Macrel, a 22-descriptor random forest classifier, across 28 parallel threads. Filtering for high confidence (probability >= 0.90) and predicted non-hemolytic safety identified 9 high-confidence hits collapsing into four candidate regions. The single most physiologically viable candidate is a 40-residue cationic, disulfide-stabilized peptide derived from serotransferrin (net charge +4.0, amphiphilic index 0.86, AMP probability 0.901). Canonical basic protease cleavage sites flank the peptide, and sequence homology identified validated antimicrobial homologs (sOT2 and cOT2) sharing the conserved KSCHTGL active motif. This discovered cryptic peptide constitutes a high-priority lead for formulation of species-relevant antimicrobials in sustainable aquaculture.",
+    "badge": "Peptide Mining",
+    "badgeColor": "dark",
+    "link": "https://github.com/Soash/labeo-rohita-amps",
     "buttonText": "GitHub"
   }
 ]
