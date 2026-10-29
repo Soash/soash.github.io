@@ -10,7 +10,7 @@
 
 This website summarizes research initiatives, preprints, software tools, and scientific data portals across:
 * **Point-of-Care Diagnostics**: Isothermal nucleic acid amplification (MIRA, RCA) coupled with lateral flow assays (LFA) for HPV and Dengue virus detection.
-* **Bioanalytical Software**: Computer vision and optical densitometry suites (`lfa-analyzer`).
+* **Bioanalytical Software**: Lateral flow assay band intensity quantification tool (`lfa-analyzer`).
 * **Genomics & Metagenomics**: Single-cell transcriptomic drug repurposing, environmental microbiome succession, and microbial/phage pangenomics.
 * **Structural Biology & Cheminformatics**: Machine learning virtual screening, molecular docking, and molecular dynamics simulations.
 * **Scientific Data Platforms**: Biological databases and biobank repositories ([BMPPD](https://bmppd.org), [PhageBiomeLab](https://phagebiomelab.com)).

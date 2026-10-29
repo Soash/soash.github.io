@@ -40,15 +40,16 @@
     "statusColor": "warning text-dark"
   },
   {
-    "title": "LFA-Analyzer: Interactive Computer Vision and Densitometry Suite for Lateral Flow Assay Quantification",
+    "title": "LFA-Analyzer: Lateral Flow Assay Band Intensity Measurement and Quantification Tool",
     "description": "",
     "authors": "Md Abu Sadat Soash",
     "affiliation": "Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh",
-    "abstract": "Lateral Flow Assays (LFAs) represent one of the most widely deployed point-of-care (PoC) diagnostic platforms across clinical, veterinary, food safety, and environmental domains. Although traditionally deployed as qualitative binary (yes/no) readout devices, there is an increasing demand for objective, semi-quantitative, and fully quantitative diagnostic evaluations. Variable ambient illumination, phone camera perspective distortions, strip misalignment inside cassette windows, and non-uniform nitrocellulose background coloration frequently compromise photometric reproducibility.\n\nLFA-Analyzer is an open-source, specialized computer vision and analytical densitometry framework engineered to transform qualitative LFA strips into rigorous, background-subtracted optical density measurements. The analytical pipeline couples planar homography perspective rectification in Fiji/ImageJ with an interactive analytical densitometry desktop application featuring float64 multi-channel array deconvolution, decoupled display-enhancement visualization, user-calibrated multi-region of interest (ROI) profiling, robust central-tendency statistics (mean vs. median), and automated batch quantification with CSV telemetry export.",
-    "badge": "Computer Vision",
+    "abstract": "Lateral Flow Assays (LFAs) and lateral flow dipsticks (LFDs) represent widely deployed point-of-care diagnostic platforms, yet conventional readouts rely on subjective visual scoring. In quantitative and multiplex molecular assays, subjective inspection cannot reliably discern faint bands near the limit of detection, monitor amplification kinetics, or resolve duplex target competition.\n\nLFA-Analyzer is an interactive image-analysis application engineered to objectively quantify lateral flow strip band intensities from digital photographs through linear pixel-intensity measurements. Designed and implemented in Python (NumPy, Pillow, Matplotlib, Tkinter), the software defines four full-width rectangular regions of interest (ROIs) anchored to a reference control line with fixed inter-line offsets for the Control band, Test Line 2, Test Line 1, and local membrane background. It integrates median pixel intensity across each slit to provide outlier-resistant raw measurements, calculates background-subtracted net band intensities, and computes normalized test-to-control (T/C) relative intensity ratios (%) to correct for strip-to-strip flow variations. The software features color channel deconvolution (such as green-channel extraction for colloidal gold nanoparticle contrast), display-enhancement decoupled from raw data arrays, interactive diagnostic plotting, and batch telemetry export to CSV for downstream statistical analysis in GraphPad Prism.",
+    "badge": "Image Analysis",
     "badgeColor": "dark",
     "link": "https://github.com/Soash/lfa-analyzer",
-    "buttonText": "GitHub"
+    "buttonText": "GitHub",
+    "supervisor": "<a href=\"https://www.sust.edu/departments/geb/faculty/gcbiswas-geb@sust.edu\" target=\"_blank\" class=\"text-decoration-none\">Prof. Dr. Gokul Chandra Biswas</a>"
   },
   {
     "title": "BMPPD: Bangladeshi Medicinal Plant Phytochemicals Database",
